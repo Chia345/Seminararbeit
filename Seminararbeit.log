@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  19 JUN 2018 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  20 JUN 2018 19:54
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -255,15 +255,12 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2017-10-04 10:21:14
 (epstopdf)                    size: 357553 bytes
 (epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-19 13:39:48
+(epstopdf)                    size: 26671 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
 ig1.eps>
 (epstopdf)             \includegraphics on input line 84.
-runsystem(epstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps)...executed (al
-lowed).
-
-Package epstopdf Info: Result file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-06-19 13:39:48
-(epstopdf)                    size: 26671 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <fig1-eps-converted-to.pdf, id=1, pagebox=cropbox, 345.29pt x 142.5325pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
@@ -277,7 +274,7 @@ e 84.
 eps-converted-to.pdf>] (Seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
  1891 strings out of 493312
- 26198 string characters out of 3138898
+ 26158 string characters out of 3138898
  91766 words of memory out of 3000000
  5431 multiletter control sequences out of 15000+200000
  7980 words of font info for 28 fonts, out of 3000000 for 9000
