@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  20 JUN 2018 19:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  25 JUN 2018 20:44
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -248,9 +248,9 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 60.
+(Font)              <9> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 62.
 Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2017-10-04 10:21:14
 (epstopdf)                    size: 357553 bytes
@@ -259,24 +259,24 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    size: 26671 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
 ig1.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 <fig1-eps-converted-to.pdf, id=1, pagebox=cropbox, 345.29pt x 142.5325pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 84. on i
-nput line 84.
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 86. on i
+nput line 86.
 Package pdftex.def Info: Requested size: 347.12354pt x 143.29115pt on input lin
-e 84.
+e 86.
  [1
 
 {C:/Users/Maren/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./fig1-
 eps-converted-to.pdf>] (Seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 1891 strings out of 493312
- 26158 string characters out of 3138898
- 91766 words of memory out of 3000000
- 5431 multiletter control sequences out of 15000+200000
+ 1894 strings out of 493312
+ 26192 string characters out of 3138898
+ 91775 words of memory out of 3000000
+ 5434 multiletter control sequences out of 15000+200000
  7980 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,25p,289b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -289,7 +289,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Seminararbeit.pdf (2 pages, 154302 bytes).
+Output written on Seminararbeit.pdf (2 pages, 155518 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
