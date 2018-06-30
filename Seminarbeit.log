@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  30 JUN 2018 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  30 JUN 2018 23:23
 entering extended mode
 **./Seminarbeit.tex
 (Seminarbeit.tex
@@ -152,7 +152,11 @@ File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(Seminarbeit.aux)
+(Seminarbeit.aux
+
+LaTeX Warning: Label `img:and' multiply defined.
+
+)
 \openout1 = `Seminarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -267,45 +271,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 [1
 
 {C:/Users/Maren/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+<AND.png, id=11, 800.9925pt x 552.56438pt>
+File: AND.png Graphic file (type png)
+<use AND.png>
+Package pdftex.def Info: AND.png  used on input line 69. on input line 69.
+Package pdftex.def Info: Requested size: 240.29959pt x 165.77058pt on input lin
+e 69.
+<biocomputing_sensor.png, id=12, 1251.17438pt x 532.99126pt>
+File: biocomputing_sensor.png Graphic file (type png)
+<use biocomputing_sensor.png>
+Package pdftex.def Info: biocomputing_sensor.png  used on input line 73. on inp
+ut line 73.
+Package pdftex.def Info: Requested size: 250.23044pt x 106.59636pt on input lin
+e 73.
+ [2 <./AND.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+[3 <./biocomputing_sensor.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Overfull \hbox (7.32153pt too wide) in paragraph at lines 156--157
+Overfull \hbox (7.32153pt too wide) in paragraph at lines 166--167
 []\OT1/cmr/m/n/10 markers: glu-cose(hemorrhagic shock),lactate(rhagic shock or 
 trau-mic brain
  []
 
-[4] [5] (Seminarbeit.aux) ) 
+[5] [6] (Seminarbeit.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1867 strings out of 493312
- 25812 string characters out of 3138898
- 92750 words of memory out of 3000000
- 5415 multiletter control sequences out of 15000+200000
+ 1881 strings out of 493312
+ 26036 string characters out of 3138898
+ 92805 words of memory out of 3000000
+ 5426 multiletter control sequences out of 15000+200000
  6020 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,408b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Seminarbeit.pdf (5 pages, 110959 bytes).
+ 41i,6n,25p,508b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb>
+Output written on Seminarbeit.pdf (6 pages, 811700 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
