@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 01:44
+=======
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 00:58
 =======
@@ -6,6 +9,7 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preload
 >>>>>>> Stashed changes
 =======
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 01:35
+>>>>>>> master
 >>>>>>> master
 entering extended mode
 **./Seminarbeit.tex
@@ -375,7 +379,11 @@ Package pdftex.def Info: Requested size: 96.65941pt x 75.43047pt on input line
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
  [3 <./AND.png (PNG copy)> <./biocomputing_sensor.png (PNG copy)>]
+<<<<<<< HEAD
+Overfull \hbox (7.32153pt too wide) in paragraph at lines 122--123
+=======
 Overfull \hbox (7.32153pt too wide) in paragraph at lines 120--121
+>>>>>>> master
 >>>>>>> master
 []\OT1/cmr/m/n/10 markers: glu-cose(hemorrhagic shock),lactate(rhagic shock or 
 trau-mic brain
@@ -428,7 +436,11 @@ ublic/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+<<<<<<< HEAD
+Output written on Seminarbeit.pdf (6 pages, 901069 bytes).
+=======
 Output written on Seminarbeit.pdf (6 pages, 901048 bytes).
+>>>>>>> master
 >>>>>>> master
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
