@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 01:44
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 00:58
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  30 JUN 2018 23:41
+>>>>>>> Stashed changes
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 01:35
+>>>>>>> master
+>>>>>>> master
 entering extended mode
 **./Seminarbeit.tex
 (Seminarbeit.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,8 +35,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+) ("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
+ty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -73,10 +85,12 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count95
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.
+sty"
 Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty"))
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\remreset.
+sty"))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -128,31 +142,35 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count115
 \headlineindent=\dimen124
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
-)
-(Seminarbeit.aux)
+) (Seminarbeit.aux)
 \openout1 = `Seminarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -167,7 +185,9 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen127
@@ -180,31 +200,41 @@ LaTeX Font Info:    ... okay on input line 3.
 \MPnumerator=\count120
 \makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks20
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+)
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -213,11 +243,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -243,8 +275,13 @@ Missing character: There is no ¤ in font cmr9!
 
 Title too long for running head. Please supply
 a shorter form with \titlerunning prior to \maketitle
+<<<<<<< Updated upstream
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+=======
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+>>>>>>> Stashed changes
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
@@ -271,24 +308,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
 [1
 
+<<<<<<< Updated upstream
 {C:/Users/Maren/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+=======
+{C:/Users/mailp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+>>>>>>> Stashed changes
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 75--78
+>>>>>>> master
 
  []
 
 <AND.png, id=11, 800.9925pt x 552.56438pt>
 File: AND.png Graphic file (type png)
 <use AND.png>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Package pdftex.def Info: AND.png  used on input line 81. on input line 81.
+=======
 Package pdftex.def Info: AND.png  used on input line 82. on input line 82.
+>>>>>>> master
 Package pdftex.def Info: Requested size: 240.29959pt x 165.77058pt on input lin
 e 82.
 [2]
 <biocomputing_sensor.png, id=15, 1251.17438pt x 532.99126pt>
 File: biocomputing_sensor.png Graphic file (type png)
 <use biocomputing_sensor.png>
+<<<<<<< HEAD
+Package pdftex.def Info: biocomputing_sensor.png  used on input line 89. on inp
+ut line 89.
+Package pdftex.def Info: Requested size: 250.23044pt x 106.59636pt on input lin
+e 89.
+[2] [3 <./AND.png (PNG copy)> <./biocomputing_sensor.png (PNG copy)>]
+Overfull \hbox (7.32153pt too wide) in paragraph at lines 141--142
+=======
+Package pdftex.def Info: AND.png  used on input line 88.
+(pdftex.def)             Requested size: 240.29959pt x 165.77058pt.
+[2]
+<biocomputing_sensor.png, id=15, 1251.17438pt x 532.99126pt>
+File: biocomputing_sensor.png Graphic file (type png)
+<use biocomputing_sensor.png>
+Package pdftex.def Info: biocomputing_sensor.png  used on input line 93.
+(pdftex.def)             Requested size: 250.23044pt x 106.59636pt.
+ [3 <./AND.png (PNG copy)> <./biocomputing_sensor.png (PNG copy)>]
+Overfull \hbox (7.32153pt too wide) in paragraph at lines 145--146
+>>>>>>> Stashed changes
+=======
 Package pdftex.def Info: biocomputing_sensor.png  used on input line 91. on inp
 ut line 91.
 Package pdftex.def Info: Requested size: 375.35521pt x 159.8986pt on input line
@@ -308,13 +379,49 @@ Package pdftex.def Info: Requested size: 96.65941pt x 75.43047pt on input line
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
  [3 <./AND.png (PNG copy)> <./biocomputing_sensor.png (PNG copy)>]
+<<<<<<< HEAD
 Overfull \hbox (7.32153pt too wide) in paragraph at lines 122--123
+=======
+Overfull \hbox (7.32153pt too wide) in paragraph at lines 120--121
+>>>>>>> master
+>>>>>>> master
 []\OT1/cmr/m/n/10 markers: glu-cose(hemorrhagic shock),lactate(rhagic shock or 
 trau-mic brain
  []
 
 [4 <./ph.png (PNG copy)>] [5] [6] (Seminarbeit.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 1883 strings out of 493305
+ 27224 string characters out of 3129802
+ 93215 words of memory out of 3000000
+ 5431 multiletter control sequences out of 15000+200000
+ 6020 words of font info for 22 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
+ 41i,6n,25p,508b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Seminarbeit.pdf (6 pages, 810788 bytes).
+=======
+ 41i,6n,25p,508b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/mailp/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/mailp/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/
+mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr9.pfb><C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Seminarbeit.pdf (6 pages, 810039 bytes).
+>>>>>>> Stashed changes
+=======
  1887 strings out of 493312
  26093 string characters out of 3138898
  91774 words of memory out of 3000000
@@ -329,7 +436,12 @@ ublic/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+<<<<<<< HEAD
 Output written on Seminarbeit.pdf (6 pages, 901069 bytes).
+=======
+Output written on Seminarbeit.pdf (6 pages, 901048 bytes).
+>>>>>>> master
+>>>>>>> master
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
