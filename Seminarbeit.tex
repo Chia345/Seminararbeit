@@ -3,8 +3,10 @@
 \usepackage{float}
 \usepackage{subfigure}
 \usepackage{colortbl}
+\graphicspath{ {./images/} }
 \begin{document}
-\title{Multisignal digital biosensors for medical applications}
+\pagestyle{empty}
+\title{Multi-input digital biosensors for medical applications}
 \author{Maren Krafft}
 \authorrunning{Maren Krafft}
 \institute{Chair of technical computer science, University of Passau, Germany}
@@ -13,7 +15,7 @@
       
 \begin{abstract}
 %es werden nicht biosensors kombiniert
-Biocomputing has recently gained a place beneath other computing paradigms. Utilizing the natural rules of interaction between biochemical substances mimicking conventional computer systems, new ways and techniques of solving computing problems have been developed. This review covers the concept of biosensors, based on enzyme logic networks, that can process multiple biochemical input signals. This concept of utilizing enzymes as the ''machinery'' of biochemical logic networks, aims to create complex analytical biosensors for medical application.
+Biocomputing has recently gained a place among other computing paradigms. Utilizing the natural rules of interaction between biochemical substances mimicking conventional computer systems, new ways and techniques of solving computing problems have been developed. This review covers the concept of biosensors, based on enzyme logic networks, that can process multiple biochemical input signals. This concept of utilizing enzymes as the ''machinery'' of biochemical logic networks, aims to create complex analytical biosensors for medical application.
 
 
 \keywords{Multi-input Biosensors \and Biosensors  \and enzyme-based logic gates \and logic networks \and biomedical applications!!!!!!}
@@ -25,11 +27,11 @@ Biocomputing has recently gained a place beneath other computing paradigms. Util
 %2.innovation: described technique completely new or does it improve earlier approcahes? what is improved 
 %3.thesolution: how does the presented technique work, core idea of the solution
 
-	In the medical field biosensors (analytic devices to convert the result of a biochemical reaction into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. Biochemical substances are chemical substances that occur in natural environments like enzyme or glucose. The currently available sensors work as single-input devices, that can analyse only one specific substance. The new concept aim to create devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for a variety of possible applications. \cite{biosensors,definitions}\\
+	In the medical field biosensors (analytic devices to convert the result of a biochemical reaction into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. Biochemical substances are chemical substances that occur in natural environments like enzymes or glucose. The currently available sensors work as single-input devices, that can analyse only one specific substance. The new concept aim to create devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for a variety of possible applications. \cite{biosensors,definitions}\\
 	
 	Once realized, those biosensors are expected to revolutionize a great number of medical treatments and therapies. Through the analysis of multiple inputs, the sensors could scan specific injuries or diseases. More complex models could create sense-act-treat devices, that immediately apply the correct treatment after recognizing a specific result of the analysis. Especially in medical emergencies, where rapid reactions are of paramount importance, these developments would mark a ground-breaking change. As a further application the device could oversee the complete therapy process and analyse the impact and adjust the treatment if necessary. This repeatable mechanism is called a feedback-loop. A similar setup is already in use for Diabetes treatment. Even personalized medical therapy, which could autonomously adjust the treatment tailored to a patient’s individual needs, is imaginable.\cite{original}\\
 	
-	The basic principle of biosensors are its two layers: the receptor, that processes the biochemical input substances and the transducer, that translates the received signal into a yes/no-output. The main innovation of the new concept is the replacement of the current one-input receptor with a biocomputing network, that allows a re-creatable analysis of multiple inputs, which are then transformed into one binary output signal. The logic network, consisting of enzyme-based logic gates mimicking Boolean operations, can process biochemical information.\cite{state of the art}\\ 
+	The basic principle of digital biosensors are its two layers: the receptor, that processes the biochemical input substances and the transducer, that translates the received signal into a yes/no-output. The main innovation of the new concept is the replacement of the current one-input receptor with a biocomputing network, that allows a re-creatable analysis of multiple inputs, which are then transformed into one binary output signal. The logic network, consisting of enzyme-based logic gates mimicking Boolean operations, can process biochemical information.\cite{state of the art}\\ 
 	 
 	!!!!!!!As the controlled reactions provide a reliable result, this result can be transformed into a yes/no signal.
 	
@@ -41,7 +43,7 @@ Biocomputing has recently gained a place beneath other computing paradigms. Util
 	
 \section{Concept}
 
-The reviewed concept presents biosensors that rely on complex enzyme-based logic networks. Those networks consist of biochemical logic gates that mimic Boolean operations. The concept relies on an classic two layer structure with a biocomputing layer, containing the logic network, and a transducer converting biochemical interaction results into a signal that is observable.( e.g an electric current). This allows the device to process several biochemical input signals in the biocomputing layer before transducing the result of the logic network. \cite{application review}\cite{original}\cite{state of the art}
+The reviewed concept presents biosensors that rely on complex enzyme-based logic networks. Those networks consist of biochemical logic gates that mimic Boolean operations. The concept relies on an classic two layer structure with a biocomputing layer, containing the logic network, and a transducer converting biochemical interaction results into a signal that is observable. (e.g an electric current) This allows the device to process several biochemical input signals in the biocomputing layer before transducing the result of the logic network. \cite{application review}\cite{original}\cite{state of the art}
 
 
 \subsection{Enzyme-based logic gates}		
@@ -67,42 +69,38 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 
 		By assembling multiple logic gates, each mimicking a Boolean operation, it is possible to create small logic networks (e.g. half-adder/ half-subtractor). To convert the physical change of the final network output into an electric signal a transducer is added.
 	
-		Example: The following exemplifies a network, composed of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions within that network, when all four input chemicals are present, results in ph changes. Ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).\\
-		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase (catalyst for the oxidation of glucose) and glucose oxidase. The four specific different input signals are NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells),  acetaldehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O) .
+		Example: The following exemplifies a network, composed of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions within that network, when all four input chemicals are present, results in ph changes. ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).\\
+		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase (catalyst for the oxidation of glucose) and glucose oxidase. The four specific different input signals are NADH (resulting through reduction from Nicotinamide-Adenine-Dinucleotide NAD, which is a coenzyme found in all living cells),  acetaldehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O\textsubscript{2}).
 	 	When all inputs are present the reaction yields to an acid medium, lowering the original pH value of the solution from initial 6-7 to approximately 4. \cite{original}\cite{chemie}
 	%erst kombination von reaktionen
 	\begin{center}
-		\begin{figure}[H] \centering \includegraphics[scale= 0.38]{pics/network1.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
-	\end{center}	
-
-		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
-	
+		\includegraphics[scale= 0.38]{pics/network1.png}  
+		\includegraphics[scale= 0.4]{pics/network2.png} \\
+	\textbf{Fig 2} 
+		\end{center}
 	%verbindung mit transducer
-	
 		The pH value lowering causes an electrochemical interface to switch from a preset OFF state to ON state. The interface is constructed to experience voltage changes according to the pH level. This interface functions as a transducer that makes the pH change electrochemically readable. (Therefor a low voltage marks the 0-value and a defined higher voltage the 1-value). While 16 different combinations of input signals are possible (being present or absent) only four of those resulted in an ON state and a significant high voltage. \cite{original}
 		
 		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
 	
 	
 
-
-
-\section{designing for biomedical analytic applications}
+\section{Designing for biomedical analytic applications}
 	To recognize various medical relevant conditions, it is necessary to use characteristic biochemical substances as inputs for the logic network.
 	Physiological conditions resulting of a injury lead to a change in the concentration of some biochemical substances in the body that are typical for this condition. These substances can be used as inputs for the enzyme-based network created for the analysis.
 	
 	
-	\subsubsection{brain injury and hemorrhagic shock}
+	\subsubsection{Brain injury and hemorrhagic shock}
 	
 	The following logical system, composed of AND and IDENTITY gates, has been designed to process information related to brain injuries and hemorrhagic shock.
-	The logic gates include the three enzymes lactate oxidase(can be used for the detection of lactate), horseradish peroxidase(!!!!) and glucose dehydrogenese(!!!!!).
-	As inputs it receives the three substrates glucose, lactate(an ester or salt of lactic acid) and norepinephrine(a neurotransmitter) related to conditions originating from traumatic brain injury and hemorrhagic shock (a shock in which severe blood loss leads to inadequate oxygen delivery at the cellular level)\cite{shock}.
+	The logic gates include the three enzymes lactate oxidase(can be used for the detection of lactate), horseradish peroxidase(an enzyme that is found in the roots of horseradish; extensively used in biochemistry applications)\cite{horse} and glucose dehydrogenese(a catalyst for the oxidation of glucose)\cite{chemie}.
+	As inputs it receives the three substrates glucose, lactate(an ester or salt of lactic acid) and norepinephrine(a neurotransmitter) related to conditions originating from traumatic brain injury and hemorrhagic shock(a shock in which severe blood loss leads to inadequate oxygen delivery at the cellular level)\cite{shock}.
 	
-	An increased glucose concentration could relate to a hemorrhagic shock, while a higher lactate concentration could either indicate a hemorrhagic shock or a brain trauma and norepinephrine can be indicative of any traumatic injury. For the inputs, 0 has been defined with the normal physiologically concentration and 1 as a abnormally increased concentration. The two substrates norepiquinone() and NADH that can result out of the reaction in the network, are measured by optical and electrochemicals means. Especially the following combinations of input signals producing different combinations of NADH and norepiquinone appeared to correspond to the two different conditions. \cite{original}\cite{medicalapp}
+	An increased glucose concentration could relate to a hemorrhagic shock, while a higher lactate concentration could either indicate a hemorrhagic shock or a brain trauma and norepinephrine can be indicative of any traumatic injury. For the inputs, 0 has been defined with the normal physiologically concentration and 1 as a abnormally increased concentration. The two substrates norepiquinone(a biochemical product of the reaction between hydrogen peroxide and norepinephrine) and NADH that can result out of the reaction in the network, are measured by optical and electrochemicals means. Especially the following combinations of input signals producing different combinations of NADH and norepiquinone appeared to correspond to the two different conditions. \cite{original}\cite{medicalapp}
 	\vspace*{1cm}
 	
 	\begin{center}
-		\begin{tabular}{c|>{\columncolor[gray]{0.8}}c|>{\columncolor[gray]{0.8}}c|c|c|c|}
+		\begin{tabular}{l|>{\columncolor[gray]{0.8}}c|>{\columncolor[gray]{0.8}}c|c|c|c|}
 			condition & norepiquinone & NADH & glucose & lactate & norepinephrine\\ \hline
 			traumatic brain injury & 1&0&0&1&1\\
 			hemorrhagic shock & 1&1 &1&1&1\\
@@ -111,7 +109,7 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 
 	\vspace*{1cm}
 	
-\section{considerations}
+\section{Considerations}
 
 Being only a concept yet, there are plenty of challenges, that must be solved until a successful realization of complex applicable biosensors. The most current are as follows.
 
