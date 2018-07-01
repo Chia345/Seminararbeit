@@ -1,7 +1,8 @@
 \documentclass[runningheads]{llncs}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{subfigure}
+\usepackage{wrapfig}
+
 \usepackage{colortbl}
 \graphicspath{ {./images/} }
 \begin{document}
@@ -15,7 +16,7 @@
       
 \begin{abstract}
 %es werden nicht biosensors kombiniert
-Biocomputing has recently gained a place among other computing paradigms. Utilizing the natural rules of interaction between biochemical substances mimicking conventional computer systems, new ways and techniques of solving computing problems have been developed. This review covers the concept of biosensors, based on enzyme logic networks, that can process multiple biochemical input signals. This concept of utilizing enzymes as the ''machinery'' of biochemical logic networks, aims to create complex analytical biosensors for medical application.
+Biocomputing has recently gained a place among other computing paradigms. Utilizing the natural rules of interaction between biochemical substances mimicking conventional computer systems, new ways and techniques of solving computing problems have been developed. This review covers the concept of digital biosensors, based on enzyme logic networks, that can process multiple biochemical input signals. This concept of utilizing enzymes as the ''machinery'' of biochemical logic networks, aims to create complex analytical biosensors for medical application.
 
 
 \keywords{Multi-input Biosensors \and Biosensors  \and enzyme-based logic gates \and logic networks \and biomedical applications!!!!!!}
@@ -27,11 +28,11 @@ Biocomputing has recently gained a place among other computing paradigms. Utiliz
 %2.innovation: described technique completely new or does it improve earlier approcahes? what is improved 
 %3.thesolution: how does the presented technique work, core idea of the solution
 
-	In the medical field, biosensors (analytic devices to convert the result of a biochemical reaction into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. Biochemical substances are chemical substances that occur in natural environments like enzymes or glucose. The currently available sensors work as single-input devices, that can analyse only one specific substance. The new concept aims to create devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for a variety of possible applications. \cite{biosensors,definitions}\\
+	In the medical field, biosensors (analytic devices to convert the result of a biochemical reaction into an electric signal \cite{definitions}) are an essential tool for the monitoring and detection of a wide range of medical conditions. Biochemical substances are chemical substances that occur in natural environments like enzymes or glucose. The currently available sensors work as single-input devices, which can analyse only one specific substance. The new concept aims to create devices that can analyse multiple inputs and transform those into a single output signal. This change allows for a variety of possible applications. \cite{original}\\
 	
-	Once realized, those biosensors are expected to revolutionize a great number of medical treatments and therapies. Through the analysis of multiple inputs, the sensors could scan specific injuries or diseases. More complex models could create sense-act-treat devices, that immediately apply the correct treatment after recognizing a specific result of the analysis. Especially in medical emergencies, where rapid reactions are of paramount importance, these developments would mark a ground-breaking change. As a further application the device could oversee the complete therapy process and analyse the impact and adjust the treatment if necessary. This repeatable mechanism is called a feedback-loop. A similar setup is already in use for Diabetes treatment. Even personalized medical therapy, which could autonomously adjust the treatment tailored to a patient’s individual needs, is imaginable. \cite{original}\\
+	Once realized, those biosensors are expected to revolutionize a great number of medical treatments and therapies. Through the analysis of multiple inputs, the sensors could scan specific injuries or diseases. More complex models could create sense-act-treat devices that immediately apply the correct treatment after recognizing a specific result of the analysis. Especially in medical emergencies, where rapid reactions are of paramount importance, these developments would mark a ground-breaking change. As a further application the device could oversee the complete therapy process and analyse the impact and adjust the treatment if necessary. This repeatable mechanism is called a feedback-loop. A similar setup is already in use for Diabetes treatment. Even personalized medical therapy, which could autonomously adjust the treatment tailored to a patient’s individual needs, is imaginable. \cite{original}\\
 	
-	The basic principle of digital biosensors are its two layers: the receptor, that processes the biochemical input substances and the transducer, that translates the received signal into a yes/no-output. The main innovation of the new concept is the replacement of the current one-input receptor with a biocomputing network, that allows a re-creatable analysis of multiple inputs, which are then transformed into one binary output signal. The logic network, consisting of enzyme-based logic gates mimicking Boolean operations, can process biochemical information. As the controlled reactions provide a reliable result, this result can be transformed into a yes/no signal.This structure promises a higher fidelity than regular biosensors and allows a rapid assessment of the respective substances.\cite{state of the art}\\ 
+	The basic principle of digital biosensors are its two layers: the receptor, which processes the biochemical input substances and the transducer that translates the received signal into a yes/no-output. \cite{state of the art} The main innovation of the new concept is the replacement of the current one-input receptor with a biocomputing network that allows a re-creatable analysis of multiple inputs, which are then transformed into one binary output signal. The logic network, consisting of enzyme-based logic gates mimicking Boolean operations, can process biochemical information.\cite{haupt} As the controlled reactions provide a reliable result, this result can be transformed into a yes/no signal.This structure promises a higher fidelity than regular biosensors and allows a rapid assessment of the respective substances.\\ 
 	
 	This document is structures as follows: The concept of biosensors with enzyme-based logic is introduced in Section 2. Subsection 2.1 describes the principle of enzyme-based logic gates, while Subsection 2.2 covers the topic of logic gate networks and their combination with transducers. Section 3 presents a practical concept of a relevant medical application. The most common considerations for future development are listed in section 4, while section 5 summarizes this article.
 	
@@ -41,17 +42,19 @@ Biocomputing has recently gained a place among other computing paradigms. Utiliz
 	
 \section{Concept}
 
-The reviewed concept presents biosensors that rely on complex enzyme-based logic networks. Those networks consist of biochemical logic gates that mimic Boolean operations. The concept relies on a classic two layer structure with a biocomputing layer, containing the logic network, and a transducer converting biochemical interaction results into a signal that is observable. (e.g an electric current) This allows the device to process several biochemical input signals in the biocomputing layer before transducing the result of the logic network. \cite{application review}\cite{original}\cite{state of the art}
+The reviewed concept presents digital biosensors that rely on complex enzyme-based logic networks. Those networks consist of biochemical logic gates that mimic Boolean operations. The concept relies on a classic two layer structure with a biocomputing layer, containing the logic network, and a transducer converting biochemical interaction results into a digitally readable signal. This allows the device to process several biochemical input signals in the biocomputing layer before transducing the result of the logic network. \cite{application review}\cite{original}\cite{state of the art}
 
 
 \subsection{Enzyme-based logic gates}		
 		In biocomputing enzymes are used as logic gate constituents. Through reaction with chemical inputs they create an always-the-same end product, which is used to mimick Boolean logic gates such as AND and OR. Two concentration levels of the input chemicals are defined as the Boolean 0 and 1 values. 0 is usually considered as the absence of a substrate, but it can be altered. 1 equals a significantly difference to the as 0 defined concentration. 
-		The concentration of the desired target substance that results out of the logic gate reaction is defined with the Boolean value 0 and 1 as well. \cite{original} \cite{haupt}\\
+		The concentration of the desired target substance that results out of the logic gate reaction is defined with the Boolean value 0 and 1 as well. \cite{original} \cite{haupt}
 	
 		\subsubsection{Logic gate example AND}
 		In Fig. \ref{img:and} the enzymes glucose oxidase (short Gox; catalyses the oxidation of glucose and is often used for analysing free sugar in blood) and catalase (catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals are H\textsubscript{2}O\textsubscript{2} (Hydrogen peroxide) and glucose (blood sugar). If both substrates are present the reaction produces gluconic acid (a mild organic acid), which results in an optical absorbance change. This change was defined as the target output signal of the enzyme logic gate. The optical absorbance change will only appear in the presence of both inputs, mimicking the Boolean operation AND. \cite{original}\cite{haupt}\cite{chemie}
-		
-		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ANDneu.png} \caption{Network diagramm} \label{img:and} \end{figure}
+
+	
+	
+		\begin{figure}[H] \centering \includegraphics[scale= 0.34]{pics/ANDneu.png} \caption{Network diagramm} \label{img:and} \end{figure}
 		
 		\begin{center}
 		\begin{tabular}{c|c|c}
@@ -71,15 +74,22 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase (catalyst for the oxidation of glucose) and glucose oxidase. The four specific different input signals are NADH (resulting through reduction from Nicotinamide-Adenine-Dinucleotide NAD, which is a coenzyme found in all living cells),  acetaldehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O\textsubscript{2}).
 	 	When all inputs are present the reaction yields to an acid medium, lowering the original pH value of the solution from initial 6-7 to approximately 4. \cite{original}\cite{chemie}
 	%erst kombination von reaktionen
-	\begin{center}
-		\includegraphics[scale= 0.38]{pics/network1.png}  
-		\includegraphics[scale= 0.4]{pics/network2.png} \\
-	\textbf{Fig 2} 
-		\end{center}
-	%verbindung mit transducer
-		The lowering of the pH value causes an electrochemical interface to switch from a preset OFF state to an ON state. The interface is constructed to experience voltage changes according to the pH level. This interface functions as a transducer that makes the pH change electrochemically readable. (Therefor a low voltage marks the 0-value and a defined higher voltage the 1-value). While 16 different combinations of input signals are possible (being present or absent) only four of those resulted in an ON state and a significant high voltage. \cite{original}
+
+
 		
-		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/pH.png} \caption{Network diagramm} \label{img:ph} \end{figure}
+		\begin{figure}
+			\centering \includegraphics[scale= 0.35]{pics/network1.png}
+			\includegraphics[scale = 0.39]{pics/network2.png} \caption{Network, composed of enzyme-based logic gates}
+		\end{figure}
+
+				
+	%verbindung mit transducer
+
+		The lowering of the pH value causes an electrochemical interface to switch from a preset OFF state to an ON state. 
+		The interface is constructed to experience voltage changes according to the pH level. This interface functions as a transducer that makes the pH change electrochemically readable. (Therefor a low voltage marks the 0-value and a defined higher voltage the 1-value). While 16 different combinations of input signals are possible (being present or absent) only four of those resulted in an ON state and a significant high voltage. \cite{original}
+		
+	
+		\begin{figure}[H] \centering \includegraphics[scale= 0.36]{pics/pH.png} \caption{Inputs/Voltage} \label{img:ph} \end{figure}
 	
 	
 
@@ -109,11 +119,11 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 	
 \section{Considerations}
 
-Being only a concept yet, there are plenty of challenges, that must be solved until a successful realization of complex applicable biosensors. The most current are as follows:
+Being only a concept yet, there are plenty of challenges that must be solved until a successful realization of complex applicable biosensors. The most current are as follows:
 
 \subsubsection{Surface confinement}	In recent research, the success of enzymatic reactions was growingly dependant on the immobilization of the reagent layer. Early experiments with enzyme logic dissolved the gate constituents and chosen inputs in a solution. With the aim of complex networks that require multiple different gate constituents and inputs, each section needs to be differentiated and isolated, to prevent cross-reactions. To achieve multiple and combinable logic gates, the biocomputing layer needs to be immobilized. Agglomerations of multiple logic gates also induce further challenges. All reacting components need to be carefully evaluated to prevent cross-reactions, while the outside coating of the device must simultaneously protect the reagents within the device but be permeable to the desired inputs. The impact of an immobilization on the performance of biosensing devices has yet to be examined.\cite{original}
 
-\subsubsection{Optimal transduction} More complex setups require better and more versatile transducers. With the universal goal of processing an arbitrary number of inputs into only one output signal, the development of versatile transducers becomes crucial. WHAT The transducer must be able to process multiple logic-gate results yet (optical or electrical) output signal. Current research had to apply variant transducing strategies for complex devices, but aims to develop a multipurpose transducer, which can be generally utilized.\cite{original}
+\subsubsection{Optimal transduction} With an increasing complexity of logic networks, the transduction of multiple outputs of the biocomputing layer becomes challenging. The current transducing solution is not capable of processing multiple output signals. It is highly desired to develop a solution that works with a single electrode. To efficiently scan for multiple output signals simultaneously, researchers hope to develop a single multipurpose catalytic layer to enhance the transduction and simplify the device. \cite{original}
 
 \subsubsection{Defining the Boolean 0- and 1-values} For the biochemical logic networks as well as for the transductors, there have to be defined 0 and respectively defined 1 values. 0 should mark the biological standard value, while the state of the art is to define it as an absolute zero value. The definition of the 1-value is also problematic. In research, the 1 value has mostly been defined as a random convenient value, instead of using applicable medically critical values. Within the same field, the difference between a relevant 0 and a relevant 1 can be minimal. This leads to difficulties with the transduction accuracy. An offered solution would be a sigmoidal signal translation rather than the usual linear one, to emphasise the difference and allow a more reliable reading.\cite{original}
 
@@ -121,17 +131,21 @@ Being only a concept yet, there are plenty of challenges, that must be solved un
 
 \subsubsection{Relevant inputs}	A majority of laboratory projects worked with biomedically irrelevant substances for their proof of concept. An important step is to translate the working concept to applicable and relevant devices. In recent studies, scientists realized networks with biomedical relevant substances as inputs. The used logic networks yet did not depict a senseful logic context to the substances. Thus not only the work with relevant substances needs to be developed further, but also the logic networks need to be adjusted to depict relevant contexts.\cite{original}
 
-\subsubsection{Challenges of drug delivery}	One rather distant concern is the functionality of drug delivery devices. One of the key goals of research is to develop autonomous devices, that analyse certain physiological parameters and offer an immediate reaction. Experiments have shown a need for different methods and technology to distribute the correct treatment within the cycle of those devices. \cite{original}
+\subsubsection{Challenges of drug delivery}	One rather distant concern is the functionality of drug delivery devices. One of the key goals of research is to develop autonomous devices that analyse certain physiological parameters and offer an immediate reaction. Experiments have shown a need for different methods and technology to distribute the correct treatment within the cycle of those devices. \cite{original}
 
 
 \section{Conclusion}
+
+
+
+
 
 
 \begin{thebibliography}{8}
 	\bibitem{application review}
 	Parikha Mehrotra: Biosensors and their applications - A Review (2016) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4862100/ Last accessed 1 July 2018
 	
-	\bibitem{biosensors,definitions}
+	\bibitem{definitions}
 	Daniel R. Thevenot, Klara Toth, Richard A. Durst, George S. Wilson: Electrochemical biosensors: recommended definitions and classifications. In: Biosensors and Bioelectronics 16 (2001) pp 121- 131 https://www.sciencedirect.com/science/article/pii/S0956566301001154 Last accessed 1 July 2018
 	
 	\bibitem{original}

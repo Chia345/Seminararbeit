@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  1 JUL 2018 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  2 JUL 2018 01:53
 entering extended mode
 **./Seminarbeit.tex
 (Seminarbeit.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 (llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,8 +23,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
-ty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -73,12 +73,10 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count95
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.sty"
 Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\remreset.
-sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty"))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -130,36 +128,31 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count115
 \headlineindent=\dimen124
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count116
 \float@exts=\toks19
@@ -167,118 +160,89 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box55
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigur
-e.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip45
-\subfigcapskip=\skip46
-\subfigcaptopadj=\dimen127
-\subfigbottomskip=\skip47
-\subfigcapmargin=\dimen128
-\subfiglabelskip=\skip48
-\c@subfigure=\count117
-\c@lofdepth=\count118
-\c@subtable=\count119
-\c@lotdepth=\count120
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigur
-e.cfg")
-\subfig@top=\skip49
-\subfig@bottom=\skip50
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen127
+\WF@size=\dimen128
+\c@WF@wrappedlines=\count117
+\WF@box=\box56
+\WF@everypar=\toks21
+Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortbl.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen129
 \extrarowheight=\dimen130
-\NC@list=\toks21
-\extratabsurround=\skip51
-\backup@length=\skip52
+\NC@list=\toks22
+\extratabsurround=\skip45
+\backup@length=\skip46
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
-.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-\everycr=\toks22
-\minrowclearance=\skip53
-) (Seminarbeit.aux)
+\everycr=\toks23
+\minrowclearance=\skip47
+)
+(Seminarbeit.aux)
 \openout1 = `Seminarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count118
 \scratchdimen=\dimen131
-\scratchbox=\box56
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count124
+\scratchbox=\box57
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count121
 \MPscratchDim=\dimen132
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks24
-)
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
-ekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -287,13 +251,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -309,30 +271,23 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 13.
+(Font)              <5> on input line 14.
 
-Overfull \hbox (0.78555pt too wide) in paragraph at lines 18--19
+Overfull \hbox (0.78555pt too wide) in paragraph at lines 19--20
 \OT1/cmr/m/n/9 chem-i-cal sub-stances mim-ick-ing con-ven-tional com-puter sys-
 tems, new ways
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
-("C:\Users\mailp\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 
-
-LaTeX Warning: Citation `biosensors' on page 1 undefined on input line 30.
-
-
-LaTeX Warning: Citation `definitions' on page 1 undefined on input line 30.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
@@ -340,108 +295,106 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 [1
 
-{C:/Users/mailp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (4.01582pt too wide) in paragraph at lines 38--39
+{C:/Users/Maren/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (4.01582pt too wide) in paragraph at lines 37--38
 []\OT1/cmr/m/n/10 This doc-u-ment is struc-tures as fol-lows: The con-cept of b
 iosen-sors with enzyme-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
 [2]
-<pics/ANDneu.png, id=14, 625.58719pt x 295.1025pt>
+<pics/ANDneu.png, id=15, 625.58719pt x 295.1025pt>
 File: pics/ANDneu.png Graphic file (type png)
 <use pics/ANDneu.png>
-Package pdftex.def Info: pics/ANDneu.png  used on input line 56.
-(pdftex.def)             Requested size: 250.23044pt x 118.0389pt.
- [3 <./pics/ANDneu.png (PNG copy)>]
-<pics/network1.png, id=19, 849.1725pt x 262.73157pt>
+Package pdftex.def Info: pics/ANDneu.png  used on input line 57. on input line 
+57.
+Package pdftex.def Info: Requested size: 212.69682pt x 100.33351pt on input lin
+e 57.
+<pics/network1.png, id=16, 849.1725pt x 262.73157pt>
 File: pics/network1.png Graphic file (type png)
 <use pics/network1.png>
-Package pdftex.def Info: pics/network1.png  used on input line 77.
-(pdftex.def)             Requested size: 322.6889pt x 99.83902pt.
-<pics/network2.png, id=20, 748.29562pt x 241.65282pt>
+Package pdftex.def Info: pics/network1.png  used on input line 81. on input lin
+e 81.
+Package pdftex.def Info: Requested size: 297.21483pt x 91.95741pt on input line
+ 81.
+<pics/network2.png, id=17, 748.29562pt x 241.65282pt>
 File: pics/network2.png Graphic file (type png)
 <use pics/network2.png>
-Package pdftex.def Info: pics/network2.png  used on input line 78.
-(pdftex.def)             Requested size: 299.31294pt x 96.65941pt.
+Package pdftex.def Info: pics/network2.png  used on input line 82. on input lin
+e 82.
+Package pdftex.def Info: Requested size: 291.83412pt x 94.24422pt on input line
+ 82.
+ [3 <./pics/ANDneu.png (PNG copy)>]
 <pics/pH.png, id=21, 627.84563pt x 387.69844pt>
 File: pics/pH.png Graphic file (type png)
 <use pics/pH.png>
-Package pdftex.def Info: pics/pH.png  used on input line 84.
-(pdftex.def)             Requested size: 251.13379pt x 155.07661pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./pics/network1.png (PNG copy)> <./pics/network2.png (PNG copy)>] [5 <./pi
-cs/pH.png (PNG copy)>] [6]
-Underfull \hbox (badness 3623) in paragraph at lines 134--135
+Package pdftex.def Info: pics/pH.png  used on input line 92. on input line 92.
+Package pdftex.def Info: Requested size: 226.02425pt x 139.57132pt on input lin
+e 92.
+ [4 <./pics/network1.png (PNG copy)> <./pics/network2.png (PNG copy)> <./pics/p
+H.png (PNG copy)>] [5] [6]
+Underfull \hbox (badness 3623) in paragraph at lines 144--145
 []\OT1/cmr/m/n/9 Parikha Mehro-tra: Biosen-sors and their ap-pli-ca-tions - A R
 e-view (2016)
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 137--138
+Underfull \hbox (badness 6775) in paragraph at lines 147--148
 []\OT1/cmr/m/n/9 Daniel R. Thevenot, Klara Toth, Richard A. Durst, George S. Wi
 l-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \OT1/cmr/m/n/9 son: Elec-tro-chem-i-cal biosen-sors: rec-om-mended def-i-ni-tio
 ns and clas-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \OT1/cmr/m/n/9 fi-ca-tions. In: Biosen-sors and Bio-elec-tron-ics 16 (2001) pp 
 121- 131
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \OT1/cmr/m/n/9 https://www.sciencedirect.com/science/article/pii/S0956566301001
 154 Last
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\OT1/cmr/m/n/9 Shengbo Sang, Wen-dong Zhang and Yuan Zhao, State of the Art
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 \OT1/cmr/m/n/9 in Biosen-sors, in: State of the Art of Biosen-sors(2013) 89-110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 \OT1/cmr/m/n/9 https://www.intechopen.com/books/state-of-the-art-in-biosensors-
 general-
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 146--147
+Underfull \hbox (badness 1454) in paragraph at lines 156--157
 \OT1/cmr/m/n/9 An-a-lyzed by Var-i-ous Meth-ods, In: ChemPhysChem 16(2017), 18 
 1688-1713
  []
 
-[7]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ³ in font cmr9!
 Missing character: There is no Ã in font cmr9!
@@ -451,50 +404,48 @@ Missing character: There is no © in font cmr9!
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¨ in font cmr9!
 
-Underfull \hbox (badness 5862) in paragraph at lines 156--157
+Underfull \hbox (badness 5862) in paragraph at lines 166--167
 \OT1/cmr/m/n/9 (2018) M.D.https://www.nejm.org/doi/full/10.1056/NEJMra1705649 L
 ast ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 []\OT1/cmr/m/n/9 Nigel C.Veitch: Horseradish per-ox-i-dase: a mod-ern view of a
  clas-sic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 \OT1/cmr/m/n/9 en-zyme. In: Phy-to-chem-istry Vol-ume 65, Is-sue 3, pp. 249-259
  (2004)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 \OT1/cmr/m/n/9 https://www.sciencedirect.com/science/article/abs/pii/S003194220
 3006551 Last
  []
 
-[8] (Seminarbeit.aux) ) 
+[7] (Seminarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 2267 strings out of 493305
- 32751 string characters out of 3129802
- 98017 words of memory out of 3000000
- 5791 multiletter control sequences out of 15000+200000
+ 2165 strings out of 493312
+ 29731 string characters out of 3138898
+ 98308 words of memory out of 3000000
+ 5688 multiletter control sequences out of 15000+200000
  6020 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,25p,975b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/mailp/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/mailp/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/mailp/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb><C:/Users/mailp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy9.pfb>
-Output written on Seminarbeit.pdf (8 pages, 222712 bytes).
+ 41i,11n,25p,975b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Seminarbeit.pdf (7 pages, 221361 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
