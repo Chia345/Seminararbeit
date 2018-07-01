@@ -10,7 +10,7 @@
 
       
 \begin{abstract}
-	
+%es werden nicht biosensors kombiniert
 Biocomputing has recently gained a place beneath other computing paradigms. Utilizing the natural rules of interaction between biochemical substances, new ways and techniques of solving computing problems have been developed. This review covers the concept of combining so called biosensors, devices that analyse single-input bioprocesses, with the technical possibilities of more complex biochemical logic systems. This combination, utilizing enzymes as the ''machinery'' of biochemical logic systems, aims to create complex analytical biosensors for medical application.
 
 
@@ -26,7 +26,7 @@ Biocomputing has recently gained a place beneath other computing paradigms. Util
 
 \subsection{Context}
 s
-	In the medical field biosensors (analytic devices to convert a biochemical response into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. The currently available sensors work as single-input devices, that can analyse only one specific substance. New concepts aim to create simple devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for more possible applications.\\
+	In the medical field biosensors (analytic devices to convert a biochemical response into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. The currently available sensors work as single-input devices, that can analyse only one specific substance. New concepts aim to create devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for more possible applications.\\
 	
 	Once realized, those biosensors could revolutionize a great number medical treatments and therapies. Through the analysis of multiple inputs, the sensors could scan specific injuries or diseases. More complex models could even create sense-act-treat devices, that immediately apply the correct treatment after a specific result of the analysis. Especially in medical emergencies, where rapid reactions are of paramount importance, these developments would mark a ground-breaking change. Even personalized medical treatment, which could autonomously adjust the treatment tailored to a patient’s needs, is imaginable.\\
 	
@@ -34,48 +34,69 @@ s
 	In the medical field Biosensors, analytic devices to convert a biological response into a electric signal, are a essential tool for monitoring and detection of a wide range of medical conditions from Diabetes to .....
 	While common biosensing devices are limited to a single input, the novelty of Biosensors based on enzyme-based logic systems can process muliple biochemical signals. This article concentrates on the concept of the mulisignal processing Biosensors and the resulting challenges.\\
 	
-	The basic principle of biosensors are two layers: the receptor, that processes the inputs and the transducer, that translates the received signals to a yes/no-output. The main innovation of the new concept is to replace the current one-input receptor with a biochemical system, that allows a re-creatable analysis of multiple inputs, which are then “summed up” into one output. The receptor usually consists of enzymes (research also produced working systems using DNA and RNA), which react with specific substances. As the result of that reaction is reliable by definition, it produces an exploitable substance, that gets transduced into a yes/no signal.
+	The basic principle of biosensors are two layers: the receptor, that processes the inputs and the transducer, that translates the received signals to a yes/no-output. The main innovation of the new concept is to replace the current one-input receptor with a biochemical system, that allows a re-creatable analysis of multiple inputs, which are then transformed into one output. The receptor usually consists of enzymes (research also produced working systems using DNA and RNA), which react with specific substances. 
+	 
+	 As the result of that reaction is reliable by definition, it produces an exploitable substance, that gets transduced into a yes/no signal.
 	
 
 	This document is structures as follows. In Section 2 the concept of Biosensors with enzyme-based logic is introduced. Subsection 2.1 describes the principle of enzyme-based gates and Subsection 2.2 networks of logic gates and the combination with transducers. While section 2 only dealy with the concept of Biosensors section 3 concentrates on the designing of multisignal Biosensors for medical applications.
 	In section 4 considerations. Section 5 summarize and outlook. 
+	
+	
+	
+	
+	
 \section{concept}
 
 The multisignal processing biosensors in this article are based on enzyme-based logic systems, consisting of chemical logic gates mimicking Boolean operations. Like in common biosensors with single inputs the biosensor is composed by several layers. The receptor, that in common biosensors recognices the selected analyte of interest, is replaced by a enzyme logic systems
-The transducer converting biological recognition interaction into a type of signal that is oberservable, for example a electrical current.wortähnlichkeit senses physical changes and converts it into an electrical signal
+The transducer converting biological recognition interaction into a type of signal that is oberservable, for example a electrical current.wortähnlichkeit senses physical changes and converts it into an electrical signal.
+missing biochemical substances
 
-\subsection{Enzyme-based logic gates and networks}
-	
-	\subsubsection{Logic gate}
-	
-	In Biocomputing enzyme as logic in combination with chemical inputs resulting in a end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes two levels of concentrations of chemical reaction materials are considers as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
-	Output signal ein vorher bestimmter stoff, falls dieser vorhanden regel 1 falls nicth regel 0.  
+\subsection{Enzyme-based logic gates and networks}	
+
+
+	\subsubsection{Logic gate}	
+		In Biocomputing enzyme as logic in combination with chemical inputs resulting in a end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes two levels of concentrations of chemical reaction materials are considers as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
+		Output signal ein vorher bestimmter stoff, falls dieser vorhanden regel 1 falls nicth regel 0.  
 	(Katz) \\
 	
-	Beispiel AND 
-	In Fig 1 glucose oxidase and catalase, which are enzymes, operate as the logic gate machinery. The two input signals H2O2 and glucose. When both substrates present the inputs reacted and produces gluconic acid, which results in anoptical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
-
-	\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/AND.png} \caption{Network diagramm} \label{img:and} \end{figure}
+		Beispiel AND 
+		In Fig 1 glucose oxidase and catalase, which are enzymes, operate as the logic gate machinery. The two input signals H2O2 and glucose. When both substrates present the inputs reacted and produces gluconic acid, which results in anoptical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
+		
+		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/AND.png} \caption{Network diagramm} \label{img:and} \end{figure}
+	
 	
 	\subsubsection{networks with electrochemical transduction}
-	By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks(e.g. half-adder/ half subtractor)/enzyme logic systems. Transducers missing 
+		By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks(e.g. half-adder/ half subtractor)/enzyme logic systems. Transducers missing 
 	
-	For example, a logic network with three enzymes alchol dehydrogenase, glucose dehydrogenase and glucose oxidase operating as four concatenated logic gates and four different input signals (NADH,  actealdehyde,glucose and oxygen) The cascade of reactions resulted in ph changes. 
-	successful case: yielding acid medium,lowering pH from initila ph 6-7 to approcimately 4. The pH scale is defined from 0 (acid solution) to 14 (lye solution).
-	%erst kombination von reaktionen
-	
-	\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
+		For example, a logic network with three enzymes alchol dehydrogenase, glucose dehydrogenase and glucose oxidase operating as four concatenated logic gates and four different input signals (NADH,  actealdehyde,glucose and oxygen) The cascade of reactions resulted in ph changes. successful case: yielding acid medium,lowering pH from initila ph 6-7 to approcimately 4. The pH scale is defined from 0 (acid solution) to 14 (lye solution).
+	%erst kombination von reaktionen	
+		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
 	
 	%verbindung mit transducer
 	
-	The lower pH value resulted in switching to ON of a electrochemical interface that functioned as transducerand and  read out by whatever, volt usw
-	While 16 different variants where possible only four combinations resultet in a ON state.
+		The lower pH value resulted in switching to ON of a electrochemical interface that functioned as transducerand and  read out by whatever, volt usw While 16 different variants where possible only four combinations resultet in a ON state.
+		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
+	
+	
+		This combination is a example for a multisignal processing enzyme logic system coupled with an electrochemical transduction readout of the output signal (pH change)
 
-	\begin{figure}[H] \centering \includegraphics[scale= 0.2]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
+
+
+\section{designing for biomedical analytic applications}
+	To recognize various medical relevant conditions, it is necessary to use characteristic biomarkers as inputs for the.......... 
+	- recognizing various injury related physiological conditions, because distinct pathological conditions changes concentrations of biochemical substances in a body 
+	\subsection{Brain injury}
+	to identify type of injury
+	Use of AND and IDENTITY logic gates, three enzymes lactate oxidasse, horseradish peroxidase and glucose dehydrogenese. designed to process information related to conditions originating from traumatic brain injury and hemorrhagic shock.
+	As markers: glucose, lactate and norepinephrine.
+	increase glucose = hemorrhagic shock, higher lactate = hem or brain truama and high nore = any traumatic injury \\
+	physiologically normal concentration as 0, abnormally high as 1 as input.
+	ouput signals: norepquinone and NADH (eight different combinations possible 23 for input signals)\\
+	truth table. insert here 
 	
 	
-This combination is a example for a multisignal processing enzyme logic system coupled with an electrochemical transduction readout of the output signal (pH change)
-\section{designing for biochemical analytic applications}
+	
 	\begin{itemize}
 		\item design of biosensoric systems with logically processes signals represented by varous biomarkers characteristic for different abnormal physiological conditions
 		\item analysis of the chemical output signals generated by biomolecular logic systems is often limited.
@@ -106,9 +127,9 @@ This combination is a example for a multisignal processing enzyme logic system c
 
 
 \section{considerations}
-stabilization and confinement//
-optical transduction 
-\subsection{surface immobilization of the biocomputing machinery}
+	stabilization and confinement//
+	optical transduction 
+	\subsection{surface immobilization of the biocomputing machinery}
 	
 	
 	
