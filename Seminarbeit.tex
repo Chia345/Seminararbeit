@@ -11,11 +11,11 @@
       
 \begin{abstract}
 %es werden nicht biosensors kombiniert
-Biocomputing has recently gained a place beneath other computing paradigms. Utilizing the natural rules of interaction between biochemical substances, new ways and techniques of solving computing problems have been developed. This review covers the concept of combining so called biosensors, devices that analyse single-input bioprocesses, with the technical possibilities of more complex biochemical logic systems. This combination, utilizing enzymes as the ''machinery'' of biochemical logic systems, aims to create complex analytical biosensors for medical application.
+Biocomputing has recently gained a place beneath other computing paradigms. Utilizing the natural rules of interaction between biochemical substances mimicking conventional computer systems, new ways and techniques of solving computing problems have been developed. This review covers the concept of biosensors, devices that !!!!!!, based on enzyme logic networks, that can process multiple biochemical inputs. This concept of utilizing enzymes as the ''machinery'' of biochemical logic networks, aims to create complex analytical biosensors for medical application.
 
 
 
-\keywords{Multisignal Biosensors \and Biosensors  \and enzyme-based logic gates \and logic networks \and biomedical applications}
+\keywords{Multiinput Biosensors \and Biosensors  \and enzyme-based logic gates \and logic networks \and biomedical applications}
 \end{abstract}
 
 
@@ -25,16 +25,13 @@ Biocomputing has recently gained a place beneath other computing paradigms. Util
 %3.thesolution: how does the presented technique work, core idea of the solution
 
 \subsection{Context}
-s
+
 	In the medical field biosensors (analytic devices to convert a biochemical response into an electric signal) are an essential tool for the monitoring and detection of a wide range of medical conditions. The currently available sensors work as single-input devices, that can analyse only one specific substance. New concepts aim to create devices, that can analyse multiple inputs and transform those into a single output signal. This change allows for more possible applications.\\
 	
 	Once realized, those biosensors could revolutionize a great number medical treatments and therapies. Through the analysis of multiple inputs, the sensors could scan specific injuries or diseases. More complex models could even create sense-act-treat devices, that immediately apply the correct treatment after a specific result of the analysis. Especially in medical emergencies, where rapid reactions are of paramount importance, these developments would mark a ground-breaking change. Even personalized medical treatment, which could autonomously adjust the treatment tailored to a patient’s needs, is imaginable.\\
 	
 	
-	In the medical field Biosensors, analytic devices to convert a biological response into a electric signal, are a essential tool for monitoring and detection of a wide range of medical conditions from Diabetes to .....
-	While common biosensing devices are limited to a single input, the novelty of Biosensors based on enzyme-based logic systems can process muliple biochemical signals. This article concentrates on the concept of the mulisignal processing Biosensors and the resulting challenges.\\
-	
-	The basic principle of biosensors are two layers: the receptor, that processes the inputs and the transducer, that translates the received signals to a yes/no-output. The main innovation of the new concept is to replace the current one-input receptor with a biochemical system, that allows a re-creatable analysis of multiple inputs, which are then transformed into one output. The receptor usually consists of enzymes (research also produced working systems using DNA and RNA), which react with specific substances. 
+	The basic principle of biosensors are two layers: the receptor, that processes the inputs and the transducer, that translates the received signals to a yes/no-output. The main innovation of the new concept is to replace the current one-input receptor with a biochemical system, that allows a re-creatable analysis of multiple inputs, which are then transformed into one binary output. The logic system, consisting of enzyme-based logic gates mimicking Boolean operations, can process biochemical information.
 	 
 	 As the result of that reaction is reliable by definition, it produces an exploitable substance, that gets transduced into a yes/no signal.
 	
@@ -105,24 +102,17 @@ MISSING BIOCHEMICHAL SUBSTANCES
 
 
 \section{considerations} 
-Being only a concept yet, there are plenty of challenges, that must be solved until a successful realization of complex applicable biosensors. The most current are as follows:
-\subsubsection{Surface confinement}	In recent research, the success of enzymatic reactions was growingly dependant on the immobilization of the reagent layer. Early experiments with enzyme logic dissolved the gate constituents and chosen inputs in a solution. With the aim of complex networks that require multiple different gate constituents and inputs, each section needs to be differentiated and isolated, to prevent cross-reactions. To achieve multiple and “stackable” logic systems, the biocomputing layer needs to be immobilized. Agglomerations of multiple logic systems also induce further challenges. All reacting components need to be carefully evaluated to prevent cross-reactions, while the outside coating of the device must simultaneously protect the reagents within the device but be permeable to the desired inputs. The impact of an immobilization on the performance of biosensing devices has yet to be examined.\\
+Being only a concept yet, there are plenty of challenges, that must be solved until a successful realization of complex applicable biosensors. The most current are as follows.
+\subsubsection{Surface confinement}	In recent research, the success of enzymatic reactions was growingly dependant on the immobilization of the reagent layer. Early experiments with enzyme logic dissolved the gate constituents and chosen inputs in a solution. With the aim of complex networks that require multiple different gate constituents and inputs, each section needs to be differentiated and isolated, to prevent cross-reactions. To achieve multiple and “stackable” logic gates, the biocomputing layer needs to be immobilized. Agglomerations of multiple logic systems also induce further challenges. All reacting components need to be carefully evaluated to prevent cross-reactions, while the outside coating of the device must simultaneously protect the reagents within the device but be permeable to the desired inputs. The impact of an immobilization on the performance of biosensing devices has yet to be examined.\\
 
-\subsubsection{Optimal transduction}	More complex setups require better and more versatile transducers. With the universal goal of processing an arbitrary number of inputs into only one output signal, the development of versatile transducers becomes crucial. The transducer must be able to process multiple logic-gate results and yet translate those into one (optical or electrical) output signal. Current research had to apply variant transducing strategies for complex devices, but aims to develop a multipurpose transducer, which can be generally utilized.\\
+\subsubsection{Optimal transduction}	More complex setups require better and more versatile transducers. With the universal goal of processing an arbitrary number of inputs into only one output signal, the development of versatile transducers becomes crucial. WHAT The transducer must be able to process multiple logic-gate results and yet translate those into one (optical or electrical) output signal. Current research had to apply variant transducing strategies for complex devices, but aims to develop a multipurpose transducer, which can be generally utilized.\\
 
-\subsubsection{0- and 1-values}		In every transduction, there has to be a defined 0 and a respectively defined 1 value. 0 should mark the biological standard value, 1 the critical value. The definition of the 1-value is also problematic. In research, the 1 value has mostly been defined as a random convenient value, instead of using applicable medically critical values. Within the same field, the difference between a relevant 0 and a relevant 1 can be minimal. This leads to difficulties with the transduction. An offered solution would be a sigmoidal signal translation rather than the usual linear, to emphasise the difference an allow more reliable reading.
-Scalability		One central aim of research is to achieve a maximal flexibility of sensors. In the end, it is highly expected to be able to scale every parameter of the sensor, from the complexity of the logic system to the specificity of the transducer. The aim is, to potentially stack any given number of logic systems into greater networks, that create more and more complex logic systems and respectively allow new applications.
+\subsubsection{Defining the Boolean 0- and 1-values} In the biochemical logic system as well as for the transductiors, there has to be a defined 0 and a respectively defined 1 value. 0 should mark the biological standard value, while the state of the art is to define it as the absence of signals(!!!!!), 1 the critical value. The definition of the 1-value is also problematic. In research, the 1 value has mostly been defined as a random convenient value, instead of using applicable medically critical values. Within the same field, the difference between a relevant 0 and a relevant 1 can be minimal. This leads to difficulties with the transduction. An offered solution would be a sigmoidal signal translation rather than the usual linear, to emphasise the difference an allow more reliable reading.
+Scalability		One central aim of research is to achieve a maximal flexibility of sensors. In the end, it is highly expected to be able to scale every parameter of the sensor, from the complexity of the logic system to the specificity of the transducer. The aim is, to potentially combine any given number of logic gates into networks, that create more and more complex logic systems and respectively allow new applications.
 
-\subsubsection{Relevant inputs}		A majority of laboratory projects worked with biomedical irrelevant substances for their proof of concept. A crucial step is to make the concept work with relevant inputs. Not only the inputs themselves need to be practicable. In recent studies, scientists realized networks with biomedically relevant substances. The used logic networks yet did not depict a senseful logic context to the substances. Thus not only the work with relevant substances needs to be developed further, but also the logic networks need to be adjusted to depict relevant ???\\
+\subsubsection{Relevant inputs}	A majority of laboratory projects worked with biomedical irrelevant substances for their proof of concept. A crucial step is to make the concept work with relevant inputs. In recent studies, scientists realized networks with biomedically relevant substances as inputs. The used logic networks yet did not depict a senseful logic context to the substances(WHAT). Thus not only the work with relevant substances needs to be developed further, but also the logic networks need to be adjusted to depict relevant ???\\
 
 \subsubsection{Challenges of drug delivery}	One slightly more distant concern is the functionality of drug delivery devices. One of the key goals of research is to develop autonomous devices, that analyse certain physiological parameters and offer an immediate reaction. Experiments have shown a need for different methods and technology to distribute the correct treatment within the cycle of those devices.
-
-	\subsection{surface immobilization of the biocomputing machinery}
-	
-	
-	
-
-
 
 
 \section{Conclusion}
