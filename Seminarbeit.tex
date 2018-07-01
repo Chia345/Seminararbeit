@@ -33,26 +33,23 @@ Biocomputing has recently gained a place beneath other computing paradigms. Util
 	 
 	!!!!!!!As the controlled reactions provide a reliable result, this result can be transformed into a yes/no signal.
 	
-	This document is structures as follows. In Section 2 the concept of Biosensors with enzyme-based logic is introduced. Subsection 2.1 describes the principle of enzyme-based gates and Subsection 2.2 the networks of logic gates and the combination with transducers. While section 2 only dealy with the concept of Biosensors section 3 concentrates on the designing of multisignal Biosensors for medical applications.
-	In section 4 considerations. Section 5 summarize and outlook. 
+	This document is structures as follows. The concept of biosensors with enzyme-based logic is introduced in Section 2. Subsection 2.1 describes the principle of enzyme-based logic gates, while Subsection 2.2 covers the topic of logic gate networks and their combination with transducers. Section 3 presents a practical concept of a relevant medical application. The most common considerations for future development are listed in section 4, while section 5 summarizes this article.
 	
 	
 	
 	
 	
-\section{concept}
+\section{Concept}
 
-The multisignal processing biosensors in this article are based on enzyme-based logic systems, consisting of chemical logic gates mimicking Boolean operations. Like in common biosensors with single inputs the biosensor is composed by several layers. The receptor that analyses the selected analyte of interest in common biosensors, is replaced by an enzyme logic system.
-The transducer, converting biochemical interaction results into a type of signal that is oberservable, for example an electrical current. It senses physical changes and converts those into an electrical signal to represent a yes/no response.
-MISSING BIOCHEMICHAL SUBSTANCES
+The reviewed concept presents biosensors that rely on complex enzyme-based logic networks. Those networks consist of biochemical logic gates that mimic Boolean operations. The concept relies on an classic two layer structure with a biocomputing layer, containing the logic network, and a transducer converting biochemical interaction results into a signal that is observable.( e.g an electric current). This allows the device to process several biochemical input signals in the biocomputing layer before transducing the result of the logic network.
+
 
 \subsection{Enzyme-based logic gates}		
-		In biocomputing, enzymes as logic gate constituents in combination with chemical inputs to create an always-the-same end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes, two levels of concentrations of chemical reaction materials are considered as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
-		The result is a certain substance that acts as an output signal. If it is measurable, it signals the value 1, if not, it signals value 0.
-	(Katz) \\
+		In biocomputing enzymes are used as logic gate constituents. Through reaction with chemical inputs they create an always-the-same end product, which is used to mimick Boolean logic gates such as AND and OR. Two concentration levels of the input chemicals are defined as the Boolean 0 and 1 values. 0 is usually considered as the absence of a substrate, but it can be altered. 1 equals a significantly difference to the as 0 defined concentration. 
+		The concentration of the desired target substance that results out of the logic gate reaction is defined with the Boolean value 0 and 1 as well. \cite{source3}\\
 	
-		Beispiel AND 
-		In Fig 1 the enzymes glucose oxidase (short Gox. It catalyses the oxidation of glucose to hydrogen peroxide and D-glucono-δ-lactone and is often used for analysing free sugar in blood) and catalase (catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals are H\textsubscript{2}O\textsubscript{2} (Hydrogen peroxide) and glucose (blood sugar). When both substrates are present the inputs react and produce gluconic acid, which results in an optical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
+		\subsubsection{Logic gate example AND}
+		In Fig \ref{img:and} the enzymes glucose oxidase (short Gox; catalyses the oxidation of glucose and is often used for analysing free sugar in blood) and catalase (catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals are H\textsubscript{2}O\textsubscript{2} (Hydrogen peroxide) and glucose (blood sugar). If both substrates are present the reaction produces gluconic acid (a mild organic acid), which results in an optical absorbance change. This change was defined as the target output signal of the enzyme logic gate. The optical absorbance change will only appear in the presence of both inputs, mimicking the Boolean operation AND. 
 		
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/ANDneu.png} \caption{Network diagramm} \label{img:and} \end{figure}
 		
@@ -67,29 +64,28 @@ MISSING BIOCHEMICHAL SUBSTANCES
 		\end{tabular}
 		\end{center}
 	
-\subsection{networks with electrochemical transduction}
+\subsection{Networks with electrochemical transduction}
 
-		By assembling these single logic gates, mimicking Boolean operations, it is possible to create small logic networks (e.g. half-adder/ half subtractor)By adding a transducer, it is possible to convert the physical change into an electric signal.
+		By assembling multiple logic gates, each mimicking a Boolean operation, it is possible to create small logic networks (e.g. half-adder/ half-subtractor). To convert the physical change of the final network output into an electric signal a transducer is added.
 	
-		Figure 1: A combination of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions, when all four input chemicals are present, results in ph changes. Ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).
-		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase( catalyst for the oxidation of glucose) and glucose oxidase act as logic gates the four specific different input signals NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells),  actealdehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O).
+		Example: The following exemplifies a network, composed of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions within that network, when all four input chemicals are present, results in ph changes. Ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).\\
+		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase (catalyst for the oxidation of glucose) and glucose oxidase. The four specific different input signals are NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells),  actealdehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O) .
 	 	When all inputs are present the reaction yields to an acid medium, lowering the original pH value of the solution from initial 6-7 to approximately 4.
 	%erst kombination von reaktionen	
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
 	
 	%verbindung mit transducer
 	
-		The lower pH value resulted in switching to ON of an electrochemical interface that functioned as a transducer which makes the electrical signal readable (with low voltage as the 0-value and a defined higher voltage as 1). While 16 different combinations of input signals were possible (being present or absent) only four of those resulted in an ON state.
+		The pH value lowering causes an electrochemical interface to switch from a preset OFF state to ON state. The interface is constructed to experience voltage changes according to the pH level. This interface functions as a transducer that makes the pH change electrochemically readable. (Therefor a low voltage marks the 0-value and a defined higher voltage the 1-value). While 16 different combinations of input signals are possible (being present or absent) only four of those resulted in an ON state and a significant high voltage.
 		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
 	
 	
-		This combination is an example for a multisignal processing enzyme logic system coupled with an electrochemical transduction readout of the output signal (with pH change).
 
 
 
 \section{designing for biomedical analytic applications}
 	To recognize various medical relevant conditions, it is necessary to use characteristic biochemical substances as inputs for the logic network.
-	Physiological conditions resulting of a injury lead to a change in the concentration of some biochemical substances in the body, that are typical for this condition. This substances can be used as inputs for the enzyme-based network, created for the analysis.
+	Physiological conditions resulting of a injury lead to a change in the concentration of some biochemical substances in the body that are typical for this condition. These substances can be used as inputs for the enzyme-based network created for the analysis.
 	
 	
 	\subsubsection{brain injury and hemorrhagic shock}
