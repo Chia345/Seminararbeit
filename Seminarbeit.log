@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.12)  1 JUL 2018 20:02
 entering extended mode
 **./Seminarbeit.tex
 (Seminarbeit.tex
@@ -352,94 +352,52 @@ Package pdftex.def Info: pics/ph.png  used on input line 80. on input line 80.
 Package pdftex.def Info: Requested size: 193.31882pt x 150.86095pt on input lin
 e 80.
 
-Underfull \vbox (badness 3291) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./pics/biocomputing_sensor.png (PNG copy)> <./pics/ph.png (PNG copy)>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
+ [4 <./pics/biocomputing_sensor.png (PNG copy)> <./pics/ph.png (PNG copy)>] [5]
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-[6]
-Overfull \hbox (7.32153pt too wide) in paragraph at lines 157--158
-[]\OT1/cmr/m/n/10 markers: glu-cose(hemorrhagic shock),lactate(rhagic shock or 
-trau-mic brain
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--215
-
- []
-
-[8]
-Underfull \hbox (badness 3623) in paragraph at lines 233--234
+Underfull \hbox (badness 3623) in paragraph at lines 130--131
 []\OT1/cmr/m/n/9 Parikha Mehro-tra, Biosen-sors and their ap-pli-ca-tions - A R
 e-view (2016)
  []
 
-
-Underfull \hbox (badness 6775) in paragraph at lines 236--237
+[6]
+Underfull \hbox (badness 6775) in paragraph at lines 133--134
 []\OT1/cmr/m/n/9 Daniel R. Thevenot, Klara Toth, Richard A. Durst, George S. Wi
 l-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 \OT1/cmr/m/n/9 son, Elec-tro-chem-i-cal biosen-sors: rec-om-mended def-i-ni-tio
 ns and clas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 \OT1/cmr/m/n/9 si-fi-ca-tions In: Biosen-sors and Bio-elec-tron-ics 16 (2001) 1
 21- 131
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 []\OT1/cmr/m/n/9 Shengbo Sang, Wen-dong Zhang and Yuan Zhao, State of the Art
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \OT1/cmr/m/n/9 in Biosen-sors, in: State of the Art of Biosen-sors(2013) 89-110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \OT1/cmr/m/n/9 https://www.intechopen.com/books/state-of-the-art-in-biosensors-
 general-
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 245--246
+Underfull \hbox (badness 1454) in paragraph at lines 142--143
 \OT1/cmr/m/n/9 An-a-lyzed by Var-i-ous Meth-ods, In: ChemPhysChem 16(2017), 18 
 1688-1713
  []
@@ -452,26 +410,25 @@ Missing character: There is no √ in font cmr9!
 Missing character: There is no © in font cmr9!
 Missing character: There is no √ in font cmr9!
 Missing character: There is no ® in font cmr9!
-[9] (Seminarbeit.aux) ) 
+[7] (Seminarbeit.aux) ) 
 Here is how much of TeX's memory you used:
  2256 strings out of 493312
  31101 string characters out of 3138898
- 98552 words of memory out of 3000000
+ 97552 words of memory out of 3000000
  5778 multiletter control sequences out of 15000+200000
  6020 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,25p,969b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,25p,960b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Seminarbeit.pdf (9 pages, 692378 bytes).
+nts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Seminarbeit.pdf (7 pages, 678669 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

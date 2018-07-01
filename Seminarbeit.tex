@@ -90,17 +90,11 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 	
 	\subsubsection{brain injury and hemorrhagic shock}
 	
-	The following logical system, composed  AND and IDENTITY gates, has been designed to process information related to brain injuries and hemorrhagic shock.\
+	The following logical system, composed of AND and IDENTITY gates, has been designed to process information related to brain injuries and hemorrhagic shock.
 	The logic gates include the three enzymes lactate oxidase(!!!!!!), horseradish peroxidase(!!!!) and glucose dehydrogenese(!!!!!).
-	As inputs it receives the three substrates glucose, lactate(!!!!) and norepinephrine()!!!!!!!! related to conditions originating from traumatic brain injury and hemorrhagic shock().\
+	As inputs it receives the three substrates glucose, lactate(!!!!) and norepinephrine()!!!!!!!! related to conditions originating from traumatic brain injury and hemorrhagic shock().
 	
-	A increased glucose concentration could relate to a hemorrhagic shock, while a higher lactate concentration could either indicate a hemorrhagic shock or a brain trauma and norepinephrine can be a indicative of any traumatic injury. For the inputs 0 has been defined with the normal physiologically concentration and 1 as a abnormally increased concentration.
-	
-	Optical and electrochemical means were used as transducer 
-
-
-	
-	Especially the following combinations of input signals appeared to correspond the the two different conditions
+	An increased glucose concentration could relate to a hemorrhagic shock, while a higher lactate concentration could either indicate a hemorrhagic shock or a brain trauma and norepinephrine can be indicative of any traumatic injury. For the inputs, 0 has been defined with the normal physiologically concentration and 1 as a abnormally increased concentration. The two substrates norepinquinone and NADH that can result out of the reaction in the network, are measured by optical and electrochemicals means. Especially the following combinations of input signals producing different combinations of NADH and norepinquinone appeared to correspond to the two different conditions. 
 	
 	\begin{center}
 		\begin{tabular}{c|>{\columncolor[gray]{0.8}}c|>{\columncolor[gray]{0.8}}c|c|c|c|}
@@ -111,120 +105,24 @@ The reviewed concept presents biosensors that rely on complex enzyme-based logic
 	\end{center}
 
 	
-	binary output
-	
-	
-	
-
-
-
 \section{considerations} 
+
 Being only a concept yet, there are plenty of challenges, that must be solved until a successful realization of complex applicable biosensors. The most current are as follows.
-\subsubsection{Surface confinement}	In recent research, the success of enzymatic reactions was growingly dependant on the immobilization of the reagent layer. Early experiments with enzyme logic dissolved the gate constituents and chosen inputs in a solution. With the aim of complex networks that require multiple different gate constituents and inputs, each section needs to be differentiated and isolated, to prevent cross-reactions. To achieve multiple and “stackable” logic gates, the biocomputing layer needs to be immobilized. Agglomerations of multiple logic systems also induce further challenges. All reacting components need to be carefully evaluated to prevent cross-reactions, while the outside coating of the device must simultaneously protect the reagents within the device but be permeable to the desired inputs. The impact of an immobilization on the performance of biosensing devices has yet to be examined.\\
 
-\subsubsection{Optimal transduction}	More complex setups require better and more versatile transducers. With the universal goal of processing an arbitrary number of inputs into only one output signal, the development of versatile transducers becomes crucial. WHAT The transducer must be able to process multiple logic-gate results and yet translate those into one (optical or electrical) output signal. Current research had to apply variant transducing strategies for complex devices, but aims to develop a multipurpose transducer, which can be generally utilized.\\
+\subsubsection{Surface confinement}	In recent research, the success of enzymatic reactions was growingly dependant on the immobilization of the reagent layer. Early experiments with enzyme logic dissolved the gate constituents and chosen inputs in a solution. With the aim of complex networks that require multiple different gate constituents and inputs, each section needs to be differentiated and isolated, to prevent cross-reactions. To achieve multiple and combinable logic gates, the biocomputing layer needs to be immobilized. Agglomerations of multiple logic gates also induce further challenges. All reacting components need to be carefully evaluated to prevent cross-reactions, while the outside coating of the device must simultaneously protect the reagents within the device but be permeable to the desired inputs. The impact of an immobilization on the performance of biosensing devices has yet to be examined.
 
-\subsubsection{Defining the Boolean 0- and 1-values} In the biochemical logic system as well as for the transductiors, there has to be a defined 0 and a respectively defined 1 value. 0 should mark the biological standard value, while the state of the art is to define it as the absence of signals(!!!!!), 1 the critical value. The definition of the 1-value is also problematic. In research, the 1 value has mostly been defined as a random convenient value, instead of using applicable medically critical values. Within the same field, the difference between a relevant 0 and a relevant 1 can be minimal. This leads to difficulties with the transduction. An offered solution would be a sigmoidal signal translation rather than the usual linear, to emphasise the difference an allow more reliable reading.
-Scalability		One central aim of research is to achieve a maximal flexibility of sensors. In the end, it is highly expected to be able to scale every parameter of the sensor, from the complexity of the logic system to the specificity of the transducer. The aim is, to potentially combine any given number of logic gates into networks, that create more and more complex logic systems and respectively allow new applications.
+\subsubsection{Optimal transduction} More complex setups require better and more versatile transducers. With the universal goal of processing an arbitrary number of inputs into only one output signal, the development of versatile transducers becomes crucial. WHAT The transducer must be able to process multiple logic-gate results yet (optical or electrical) output signal. Current research had to apply variant transducing strategies for complex devices, but aims to develop a multipurpose transducer, which can be generally utilized.
 
-\subsubsection{Relevant inputs}	A majority of laboratory projects worked with biomedical irrelevant substances for their proof of concept. A crucial step is to make the concept work with relevant inputs. In recent studies, scientists realized networks with biomedically relevant substances as inputs. The used logic networks yet did not depict a senseful logic context to the substances(WHAT). Thus not only the work with relevant substances needs to be developed further, but also the logic networks need to be adjusted to depict relevant ???\\
+\subsubsection{Defining the Boolean 0- and 1-values} For the biochemical logic networks as well as for the transductors, there have to be defined 0 and respectively defined 1 values. 0 should mark the biological standard value, while the state of the art is to define it as an absolute zero value. The definition of the 1-value is also problematic. In research, the 1 value has mostly been defined as a random convenient value, instead of using applicable medically critical values. Within the same field, the difference between a relevant 0 and a relevant 1 can be minimal. This leads to difficulties with the transduction accuracy. An offered solution would be a sigmoidal signal translation rather than the usual linear one, to emphasise the difference and allow a more reliable reading.
 
-\subsubsection{Challenges of drug delivery}	One slightly more distant concern is the functionality of drug delivery devices. One of the key goals of research is to develop autonomous devices, that analyse certain physiological parameters and offer an immediate reaction. Experiments have shown a need for different methods and technology to distribute the correct treatment within the cycle of those devices.
+\subsubsection{Scalability}	One central aim of research is to achieve a maximal flexibility of sensors. Ultimately it is highly desired to be able to scale every parameter of the sensor, from the complexity of the logic system to the specificity of the transducer. The potential to combine any given number of logic gates into networks which create increasingly complex logic systems is not yet achieved.
+
+\subsubsection{Relevant inputs}	A majority of laboratory projects worked with biomedically irrelevant substances for their proof of concept. An important step is to translate the working concept to applicable and relevant devices. In recent studies, scientists realized networks with biomedical relevant substances as inputs. The used logic networks yet did not depict a senseful logic context to the substances. Thus not only the work with relevant substances needs to be developed further, but also the logic networks need to be adjusted to depict relevant contexts.
+
+\subsubsection{Challenges of drug delivery}	One rather distant concern is the functionality of drug delivery devices. One of the key goals of research is to develop autonomous devices, that analyse certain physiological parameters and offer an immediate reaction. Experiments have shown a need for different methods and technology to distribute the correct treatment within the cycle of those devices.
 
 
 \section{Conclusion}
-
-\begin{itemize}
-	\item design of biosensoric systems with logically processes signals represented by varous biomarkers characteristic for different abnormal physiological conditions
-	\item analysis of the chemical output signals generated by biomolecular logic systems is often limited.
-	\item Enzyme logic system: multiassemblies to perform simple arithmetic functions
-	\item idea: applicatoin of biomolecular logic system for analytical purpose new class of biosensors that accept many input signals and produce binary outputs in form yes/no 
-	\item example analyse protein libraties associated with muliple sclerosis(58)
-\end{itemize}
-
-\begin{itemize}
-	\item not just chronic but also ..........
-	\item state of the art
-	\item feedback loop currently devoted to management of diabetes through integration of an electrochemical glucose sensing element with an insulin-delivery feedback loop for the optimal dose of insulin (69-71)
-	\item example analyse protein libraties associated with muliple sclerosis(58)
-	
-	ENzyme logic system recognizing various injury-related physiological conditions
-	\begin{itemize}
-		\item types of injuries result in concentrations of chemical substances in the body
-		
-		\item example: lactate axidase, horeserasish peroxidase and glucose dehydrogenase = designed to process biochemical information related to pathophysiological conditions from brain injury
-		\item markers: glucose(hemorrhagic shock),lactate(rhagic shock or traumic brain injury) and norepinephrine(traumatic injury)
-		\item logic 0 = normal concentrations
-		\item change results into different numbers 1,2,3 - convenient
-		\item = biocomputing logic system 
-		\item challenge: difference between normal and unnormal minimal => not linear, should be sigmoidal	
-	\end{itemize}
-\end{itemize}
-	\begin{itemize}
-	\item optimal surface confinement of the biocomputing layer
-	\item engineering enzyme microenvironment (transducer layer)
-	\item contact between biocomputing layer and transducing surface
-	\item combine individual logic-gates and maintain high enzymatic stability and reataining individual reagents
-	\item leakage of cosubstrate 
-	\item no cross-reactions
-	\item surface confinement? layer-by layer? more efficient and rational 
-	\item level of the surface confined reagents tailored for account of different input concentrations /enzyme activities 
-	\item coating: optimized for transport and excluding potential interfernece and protecting the surface
-\end{itemize}
-
-\subsection{optimal transduction of biocomputing signal processes}
-\begin{itemize}
-	\item simultaneous measurements of multiple outputs require different transduction strategies (common: fixed potential )
-\end{itemize}
-\begin{itemize}
-	\item Requires:interface of biocomputing systems + electronic transducer\\
-	Therefore
-	\item scalability (increasing nuber of logic gates, assembling into complex networks)
-	\item complexity(coupling of gates abd non boolean elements)
-	\item composition, preparation and immobilization of the biocomputing surface layer
-	\item layer by layer
-	\item optimal surface confinement 
-	\item careful engineering of the enzyme microenvironment(on transducer surface) for performance
-	\item biocomputing layer + transducing layer + combine individual logic-gate elements	
-\end{itemize}
-
-	good but needs lot of work\\
-	sums up bla
-	
-		Profound impact\\
-	
-	Through processing automatically several biochemical inputs(physiological information), it can provide a rapid and reliable assessment of overall physiological conditions. This can help a optimal timley therapeutic intervention. They will realize sense/delivery feedback loops by coupling signal processing with chemical actuators to revolutionize patient monitoring and drug delivery. 
-	
-	In the Biosensors processing multiple biochemical signal, the core idea is to add a biocomputing layer that produces a final output in form of a yes/no response. Kapitel 1.2\\
-	
-	Chances:
-	
-	
-	
-	
-	In contrast to recent biosensors, those with a 11111111111 logic promise a higher fidelity, a greater range of processable inputs, more complex applications such as sense-act-treat loops and rapid assessment of the respective substances.(mehr ausformulieren)
-	
-	
-	
-	
-	\subsection{Biosensors  logic systems}
-	Biosensors logically processing multiple biochemical signals\\
-	-such procassed information produces a final output yes/no \\
-	- boolean logic networks composed of biomolecular systems\\	
-	\begin{itemize}
-		\item multiple target analytes(inputs) for enzyme gates
-		\item high-fidelity compared
-		\item closed loop/feedback loops possible (sense/act/treat)
-		\item rapid and reliable assessment of overall physiological condition
-		\item could initiate optimal timely therapeutic intervention
-		\item biosensors + enzyme logic gates
-		\item allows direct coupling of signal processing with chemical actuators 
-		\item application og biomolecular logic systems for analystic purposes could yield a novel class of biosensors: many input signals and binary outputs
-		\item logically processed feedback between drug appl. and physiological conditions can signifacntly imprive drug targeting and efficiency 
-		
-		\item difficulties: complexity by assembling individual logic gates into complex logic networks (intelligent by molecular logic) (43-34-67)
-		\item new approach for the sensor design and operation, interfach biocomputing system and electronic transducers
-	\end{itemize}
 
 
 \begin{thebibliography}{8}
