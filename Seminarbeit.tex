@@ -48,38 +48,38 @@ s
 	
 \section{concept}
 
-The multisignal processing biosensors in this article are based on enzyme-based logic systems, consisting of chemical logic gates mimicking Boolean operations. Like in common biosensors with single inputs the biosensor is composed by several layers. The receptor, that in common biosensors recognices the selected analyte of interest, is replaced by a enzyme logic systems
-The transducer converting biological recognition interaction into a type of signal that is oberservable, for example a electrical current.wortähnlichkeit senses physical changes and converts it into an electrical signal.
-missing biochemical substances
+The multisignal processing biosensors in this article are based on enzyme-based logic systems, consisting of chemical logic gates mimicking Boolean operations. Like in common biosensors with single inputs the biosensor is composed by several layers. The receptor that analyses the selected analyte of interest in common biosensors, is replaced by an enzyme logic system.
+The transducer, converting biochemical interaction results into a type of signal that is oberservable, for example an electrical current. It senses physical changes and converts those into an electrical signal to represent a yes/no response.
+MISSING BIOCHEMICHAL SUBSTANCES
 
 \subsection{Enzyme-based logic gates and networks}	
 	\subsubsection{Logic gate}	
-		In Biocomputing enzyme as logic in combination with chemical inputs resulting in a end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes two levels of concentrations of chemical reaction materials are considers as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
-		Output signal ein vorher bestimmter stoff, falls dieser vorhanden regel 1 falls nicth regel 0.  
+		In biocomputing, enzymes as logic gate constituents in combination with chemical inputs to create an always-the-same end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes, two levels of concentrations of chemical reaction materials are considered as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
+		The result is a certain substance that acts as an output signal. If it is measurable, it signals the value 1, if not, it signals value 0.
 	(Katz) \\
 	
 		Beispiel AND 
-		In Fig 1 the enzymes glucose oxidase (short Gox. It catalyses the oxidation of glucose to hydrogen peroxide and D-glucono-δ-lactone and is often used for analysing free sugar in blood) and catalase( catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals H2O2 (Hydrogen peroxide) and glucose (blood sugar) . When both substrates present the inputs react and produc gluconic acid, which results in an optical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
+		In Fig 1 the enzymes glucose oxidase (short Gox. It catalyses the oxidation of glucose to hydrogen peroxide and D-glucono-δ-lactone and is often used for analysing free sugar in blood) and catalase (catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals are H2O2 (Hydrogen peroxide) and glucose (blood sugar). When both substrates are present the inputs react and produce gluconic acid, which results in an optical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
 		
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/AND.png} \caption{Network diagramm} \label{img:and} \end{figure}
 	
 	
 	\subsubsection{networks with electrochemical transduction}
-		By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks(e.g. half-adder/ half subtractor)/enzyme logic systems. By adding a transducer, it is possible to convert the physical change into a electrical signal.
+		By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks (e.g. half-adder/ half subtractor)/enzyme logic systems!!!!!!!!!!!!!!!!!. By adding a transducer, it is possible to convert the physical change into an electric signal.
 	
-		As example a combination of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions, when all four input chemicals present, result in ph changes. ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).
-		The logic network is composed of four concatenated logic gates. As logic gates the enzymes alcohol dehydrogenase(ADH, Abbau von toxischen Alkoholen ), glucose dehydrogenase( catalyst for the oxidation of glucose) and glucose oxidase VERBMISSING and four specific different input signals NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells)  actealdehyde (also named ethanal and is a organic chemical compound, for example natually occuring in coffee, bread, and ripe fruit), glucose  and oxygen (O)
-	 	When all inputs present the reaction yiels to a acid medium, lowering the origin pH value of the solution from initial ph-value 6-7 to approximately 4.
+		Figure 1: A combination of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions, when all four input chemicals are present, results in ph changes. Ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).
+		The logic network is composed of four concatenated logic gates. Those gates contain the enzymes alcohol dehydrogenase (ADH, disassembling toxic alcohols), glucose dehydrogenase( catalyst for the oxidation of glucose) and glucose oxidase act as logic gates the four specific different input signals NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells),  actealdehyde (also named ethanal, which is an organic chemical compound, for example naturally occuring in coffee, bread, and ripe fruit), glucose and oxygen (O).
+	 	When all inputs are present the reaction yields to an acid medium, lowering the original pH value of the solution from initial 6-7 to approximately 4.
 	%erst kombination von reaktionen	
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
 	
 	%verbindung mit transducer
 	
-		The lower pH value resulted in switching to ON of a electrochemical interface that functioned as transducer and the electrical signal can be read out.(low voltage as 0 and MISSING as 1). While 16 different combinations of input signals where possible (present and absent) only four of these resultet in an ON state.
+		The lower pH value resulted in switching to ON of an electrochemical interface that functioned as a transducer which makes the electrical signal readable (with low voltage as the 0-value and a defined higher voltage as 1). While 16 different combinations of input signals were possible (being present or absent) only four of those resulted in an ON state.
 		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
 	
 	
-		This combination is a example for a multisignal processing enzyme logic system coupled with an electrochemical transduction readout of the output signal (pH change)
+		This combination is an example for a multisignal processing enzyme logic system coupled with an electrochemical transduction readout of the output signal (with pH change).
 
 
 
