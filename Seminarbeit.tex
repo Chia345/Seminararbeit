@@ -53,29 +53,29 @@ The transducer converting biological recognition interaction into a type of sign
 missing biochemical substances
 
 \subsection{Enzyme-based logic gates and networks}	
-
-
 	\subsubsection{Logic gate}	
 		In Biocomputing enzyme as logic in combination with chemical inputs resulting in a end product is used to mimick Boolean logic gates such as AND and OR. To digitalize chemical processes two levels of concentrations of chemical reaction materials are considers as input signals. 0 is usually considered as the absence of a enzyme, but it can be altered. 1 equals a  significantly difference to the absence or the as 0 defined concentration.
 		Output signal ein vorher bestimmter stoff, falls dieser vorhanden regel 1 falls nicth regel 0.  
 	(Katz) \\
 	
 		Beispiel AND 
-		In Fig 1 glucose oxidase and catalase, which are enzymes, operate as the logic gate machinery. The two input signals H2O2 and glucose. When both substrates present the inputs reacted and produces gluconic acid, which results in anoptical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
+		In Fig 1 the enzymes glucose oxidase (short Gox. It catalyses the oxidation of glucose to hydrogen peroxide and D-glucono-δ-lactone and is often used for analysing free sugar in blood) and catalase( catalyzes the decomposition of hydrogen peroxide to water and oxygen) operate as the logic gate machinery. The two input signals H2O2 (Hydrogen peroxide) and glucose (blood sugar) . When both substrates present the inputs react and produc gluconic acid, which results in an optical absorbance change, that was defined as the ouput signal of the enzyme logic gate. The optical absorbance change just appeared in the presence of both inputs, mimicking the Boolean operation AND. 
 		
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/AND.png} \caption{Network diagramm} \label{img:and} \end{figure}
 	
 	
 	\subsubsection{networks with electrochemical transduction}
-		By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks(e.g. half-adder/ half subtractor)/enzyme logic systems. Transducers missing 
+		By assembling these single logic gates, mimicking Boolean operations,it is possible to create small logic networks(e.g. half-adder/ half subtractor)/enzyme logic systems. By adding a transducer, it is possible to convert the physical change into a electrical signal.
 	
-		For example, a logic network with three enzymes alchol dehydrogenase, glucose dehydrogenase and glucose oxidase operating as four concatenated logic gates and four different input signals (NADH,  actealdehyde,glucose and oxygen) The cascade of reactions resulted in ph changes. successful case: yielding acid medium,lowering pH from initila ph 6-7 to approcimately 4. The pH scale is defined from 0 (acid solution) to 14 (lye solution).
+		As example a combination of different enzym-based logic gates, functioning as AND or OR. The cascade of reactions, when all four input chemicals present, result in ph changes. ph measures the degree to which a solution is acidic or alkaline. The scale is defined from 0 (acid solution) to 14 (lye solution).
+		The logic network is composed of four concatenated logic gates. As logic gates the enzymes alcohol dehydrogenase(ADH, Abbau von toxischen Alkoholen ), glucose dehydrogenase( catalyst for the oxidation of glucose) and glucose oxidase VERBMISSING and four specific different input signals NADH (resulting through reduction from Nicotinamid-Adenin-Dinukleotid NAD, which is a coenzyme found in all living cells)  actealdehyde (also named ethanal and is a organic chemical compound, for example natually occuring in coffee, bread, and ripe fruit), glucose  and oxygen (O)
+	 	When all inputs present the reaction yiels to a acid medium, lowering the origin pH value of the solution from initial ph-value 6-7 to approximately 4.
 	%erst kombination von reaktionen	
 		\begin{figure}[H] \centering \includegraphics[scale= 0.3]{pics/biocomputing_sensor.png} \caption{Network diagramm} \label{img:grafik-test} \end{figure}
 	
 	%verbindung mit transducer
 	
-		The lower pH value resulted in switching to ON of a electrochemical interface that functioned as transducerand and  read out by whatever, volt usw While 16 different variants where possible only four combinations resultet in a ON state.
+		The lower pH value resulted in switching to ON of a electrochemical interface that functioned as transducer and the electrical signal can be read out.(low voltage as 0 and MISSING as 1). While 16 different combinations of input signals where possible (present and absent) only four of these resultet in an ON state.
 		\begin{figure}[H] \centering \includegraphics[scale= 0.4]{pics/ph.png} \caption{Network diagramm} \label{img:ph} \end{figure}
 	
 	
@@ -205,19 +205,22 @@ missing biochemical substances
 
 \begin{thebibliography}{8}
 	\bibitem{application}
-	Parikha Mehrotra, Biosensors and their applications - A Review (2016)
+	Parikha Mehrotra, Biosensors and their applications - A Review (2016) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4862100/
 	
 	\bibitem{biosensors}
-	Daniel R. Thevenot, Klara Toth, Richard A. Durst, George S. Wilson, Electrochemical biosensors: recommended definitions and classifications In: Biosensors and Bioelectronics 16 (2001) 121- 131
+	Daniel R. Thevenot, Klara Toth, Richard A. Durst, George S. Wilson, Electrochemical biosensors: recommended definitions and classifications In: Biosensors and Bioelectronics 16 (2001) 121- 131 https://www.sciencedirect.com/science/article/pii/S0956566301001154
 	
 	\bibitem{source1}
 	Joseph Wang, Evgeny Katz, Digital biosensors with build-in logic for biomedical applications- biosensors based on a biocomputing concept, in: Anal Bioanal Chem(2010) 1591-1603
 	
 	\bibitem{source2}
-	Shengbo Sang, Wendong Zhang and Yuan Zhao, State of the Art in Biosensors, in: State of the Art of Biosensors(2013) 89-110
+	Shengbo Sang, Wendong Zhang and Yuan Zhao, State of the Art in Biosensors, in: State of the Art of Biosensors(2013) 89-110 https://www.intechopen.com/books/state-of-the-art-in-biosensors-general-aspects/review-on-the-design-art-of-biosensors
 	
 	\bibitem{source3}
-	Evgeny Katz, Enzyme-Based Logic Gates and Networks with Outout Signals Analyzed by Various Methods, In: ChemPhysChem 2017, 18 1688-1713
+	Evgeny Katz, Enzyme-Based Logic Gates and Networks with Outout Signals Analyzed by Various Methods, In: ChemPhysChem 16(2017), 18 1688-1713 https://onlinelibrary.wiley.com/doi/full/10.1002/cphc.201601402
+	
+	\bibitem{chemie}
+	DónalLeechMariePellissierFrédéricBarrière, INElectrochemical Sensors, Biosensors and their Biomedical Applications (2008), Pages 385-410 https://doi.org/10.1016/B978-012373738-0.50014-3
 	
 \end{thebibliography}
 \end{document}
