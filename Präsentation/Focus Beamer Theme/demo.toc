@@ -1,7 +1,7 @@
-\beamer@sectionintoc {1}{Konzept}{4}{0}{1}
-\beamer@subsubsectionintoc {1}{0}{1}{Biosensoren}{5}{0}{1}
-\beamer@subsubsectionintoc {1}{0}{2}{Enzymbasierte Logikgatter}{7}{0}{1}
-\beamer@subsubsectionintoc {1}{0}{3}{Netzwerke aus enzymbasierten Logikgattern}{9}{0}{1}
-\beamer@sectionintoc {2}{Beispieldesign für ein medizinsche Anwendung basierend auf }{11}{0}{2}
-\beamer@sectionintoc {3}{{\"U}berlegungen}{12}{0}{3}
-\beamer@sectionintoc {4}{Section 2}{14}{0}{4}
+\beamer@sectionintoc {1}{Begriffserkl{\"a}rung}{4}{0}{1}
+\beamer@sectionintoc {2}{Konzept}{6}{0}{2}
+\beamer@subsubsectionintoc {2}{0}{1}{Biosensoren}{7}{0}{2}
+\beamer@subsubsectionintoc {2}{0}{2}{Enzymbasierte Logikgatter}{9}{0}{2}
+\beamer@subsubsectionintoc {2}{0}{3}{enzymbasierte Biosensoren}{12}{0}{2}
+\beamer@sectionintoc {3}{F{\"u}r medizinische Anwendungen}{16}{0}{3}
+\beamer@sectionintoc {4}{{\"U}berlegungen}{18}{0}{4}

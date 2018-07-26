@@ -15,7 +15,7 @@
 {
 	\begin{frame}<beamer>{Gliederung}
 	\tableofcontents[currentsection,currentsubsection]
-\end{frame}
+	\end{frame}
 }
 \begin{document}
     \begin{frame}
@@ -25,10 +25,10 @@
 	\begin{frame}{Motivation}
 		\begin{itemize}
 			\item Mehrere Inputs k{\"o}nnen direkt verarbeitet werden
-			\item Bietet neue Möglichkeiten im medizinischen Bereich
+			\item Bietet neue M{\"o}glichkeiten im medizinischen Bereich
 			\item Beispiele: 
 			\begin{itemize}
-				\item nicht nur einzelne Substanzen analysieren, sondern krankheitsabhängige Kombinationen von chemischen Substanzen
+				\item nicht nur einzelne Substanzen analysieren, sondern krankheitsabh{\"a}ngige Kombinationen von chemischen Substanzen
 				\item feedback loops
 				\item personalisierte Medikation
 				\item zeitnahe Reaktion
@@ -40,8 +40,18 @@
     \tableofcontents
     % You might wish to add the option [pausesections]
 	\end{frame}
+
+	\section{Begriffserkl{\"a}rung}
+	\begin{frame}{Wichtige Begriffe}
+		\begin{itemize}
+			\item Enzyme =
+			\item biochemische Substanzen =\\
+			\item Biosensoren = 
+		\end{itemize}		
+	\end{frame}
  
  	\section{Konzept}
+ 	
  	\subsubsection{Biosensoren}
  	
  	\begin{frame}<beamer>{Gliederung}
@@ -49,7 +59,9 @@
  	\end{frame}
  	
     \begin{frame}{Biosensoren}
-        This is a simple frame.
+       Aufbau: 
+        \begin{figure}[H] \centering \includegraphics[scale= 0.33]{pics/biosensor.png} \caption{Eigene Darstellung} \label{img:and} 	
+       \end{figure}
     \end{frame}
 
 
@@ -61,99 +73,105 @@
 	\end{frame}
 
     \begin{frame}{Enzymbasierte Logikgatter}
-        This is a frame with plain style and it is numbered.
+    Umsetzung uns bekannter Logikgatter durch biochemische Substanzen
+    
+    	\begin{itemize}	
+    		\item Enzyme als Logik
+    		\item 2 biochem. Substanzen als Input
+    		\item Reaktion mit dem Enzym produziert eine andere biochemische Substanz
+    		\item Vorhandensein eines bestimmten biochem. Stoffes als Booleanwerte 1 und 0
+    	\end{itemize}     
+    \end{frame}
+        
+    \begin{frame}{Enzymbasierte Logikgatter - Beispiel 'AND'}
+    
+    Enzyme: Gox = Glucose-Oxidase und Cat = Katalase\\
+    Inputs: Glucose und H\textsubscript{2}O\textsubscript{2}
+    
+     \begin{figure}[H] \centering \includegraphics[scale= 0.33]{pics/ANDneu.png} \caption{Eigene Darstellung nach \cite{hallo4} } \label{img:and} 	
+   	 \end{figure}
+  
     \end{frame}
 
 
-    \subsubsection{Netzwerke aus enzymbasierten Logikgattern}
+    \subsubsection{enzymbasierte Biosensoren}
+    
     \begin{frame}<beamer>{Gliederung}
     \tableofcontents[currentsection,currentsubsection]
 	\end{frame}
     
-    \begin{frame}{Netzwerke aus enzymbasierten Logikgattern]}
-        This frame has an empty title and is aligned to top.
+    \begin{frame}{Netzwerke aus enzymbasierten Logikgattern}
+    	Durch Kombination mehrerer enzymbasierter Logikgatter ist es m{\"o}glich ein Netzwerk zu erschaffen.
+    	
+    	Beispiel: 
+    	\begin{itemize}
+    		\item Enzyme: ADH(Alkoholhydrogenase), GDH(Glucose-Dehydrogenase), GOX(Glucose-Hydrogenase)
+    	\end{itemize}
+    	\begin{figure}
+    		\centering \scriptsize \includegraphics[scale= 0.30]{pics/network1.png}
+    	\caption{Network, composed of enzyme-based logic gates} 
+   		\end{figure}
+   		
+   	
+    
+	\end{frame}
+
+	\begin{frame}{Netzwerke aus enzymbasierten Logikgattern}
+	
+	\begin{figure}
+		\centering \scriptsize 
+		\includegraphics[scale = 0.30]{pics/network2.png} \caption{Darstellung nach \cite{hallo4}} 
+	\end{figure}
+
+	\begin{figure}[H] \centering \includegraphics[scale= 0.20]{pics/pH.png} \caption{Inputs/Voltage} \label{img:ph} 
+	\end{figure}
+	\end{frame}
+
+
+	\begin{frame}{Kombination mit einem Signalwandler}
+	
+		Durch Hinzufügen eines Signalwandlers zu einem Netzwerk bestehend aus enzymbasierten Logikgattern ist es möglich einen Biosensor zu erschaffen, der mehrere Inputs erhält und verarbeiten kann.\\
+		Anhand des Beispiels:\\
+        \begin{figure}[H] \centering \includegraphics[scale= 0.37]{pics/pH.png} \caption{Inputs/Voltage} \label{img:ph} 
+        \end{figure}
+        
     \end{frame}
     
-   \section{Beispieldesign für ein medizinsche Anwendung basierend auf }
+   \section{F{\"u}r medizinische Anwendungen}
+   
+   \begin{frame}{Design f{\"u}r medizinische Analyseanwendungen}
+  	Um
+  
+   \begin{table}
+   	\scriptsize
+   	\begin{tabular}{l|c|c|c|c|c|}
+   	condition & norepiquinone & NADH & glucose & lactate & norepinephrine\\ \hline
+   	traumatic brain injury & 1&0&0&1&1\\
+   	hemorrhagic shock & 1&1 &1&1&1\\
+   \end{tabular}\\
+   \end{table}
+
+
+   
+	\end{frame}
+
+   
+
    \section{{\"U}berlegungen}
    
-    \begin{frame}{Typesetting and Math}
-        The packages \texttt{inputenc} and \texttt{FiraSans}\footnote{\url{https://fonts.google.com/specimen/Fira+Sans}}\textsuperscript{,}\footnote{\url{http://mozilla.github.io/Fira/}} are used to properly set the main fonts.
-        \vfill
-        This theme provides styling commands to typeset \emph{emphasized}, \alert{alerted}, \textbf{bold}, \textcolor{example}{example text}, \dots
-        \vfill
-        \texttt{FiraSans} also provides support for mathematical symbols:
-        \begin{equation*}
-            e^{i\pi} + 1 = 0.
-        \end{equation*}
-    \end{frame}
+   
 
-    \section{Section 2}
-    \begin{frame}{Blocks}
-        \begin{block}{Block}
-            Text.
-        \end{block}
-        \pause
-        \begin{alertblock}{Alert block}
-            Alert \alert{text}.
-        \end{alertblock}
-        \pause
-        \begin{exampleblock}{Example block}
-            Example \textcolor{example}{text}.
-        \end{exampleblock}
-    \end{frame}
-    
-    \begin{frame}{Lists}
-        \begin{columns}[t, onlytextwidth]
-            \column{0.33\textwidth}
-                Items:
-                \begin{itemize}
-                    \item Item 1
-                    \begin{itemize}
-                        \item Subitem 1.1
-                        \item Subitem 1.2
-                    \end{itemize}
-                    \item Item 2
-                    \item Item 3
-                \end{itemize}
-            
-            \column{0.33\textwidth}
-                Enumerations:
-                \begin{enumerate}
-                    \item First
-                    \item Second
-                    \begin{enumerate}
-                        \item Sub-first
-                        \item Sub-second
-                    \end{enumerate}
-                    \item Third
-                \end{enumerate}
-            
-            \column{0.33\textwidth}
-                Descriptions:
-                \begin{description}
-                    \item[First] Yes.
-                    \item[Second] No.
-                \end{description}
-        \end{columns}
-    \end{frame}
-
-	 \appendix
-	\begin{frame}{Quellen}
+	\appendix
+	\begin{frame}[allowframebreaks]{Quellen}
 	\nocite{*}
 	\bibliography{demo_bibliography}
 	\bibliographystyle{plain}
+
 	\end{frame}
-    \begin{frame}[focus]
-        Vielen Dank für Ihre Aufmerksamkeit
-    \end{frame}
     
+    
+\begin{frame}[focus]
+Vielen Dank f{\"u} Ihre Aufmerksamkeit
+\end{frame}
    
-    
-    \begin{frame}{Backup frame}
-        \usebeamercolor[fg]{normal text}
-        This is a backup frame, useful to include additional material for questions from the audience.
-        \vfill
-        The package \texttt{appendixnumberbeamer} is used not to number appendix frames.
-    \end{frame}
 \end{document}

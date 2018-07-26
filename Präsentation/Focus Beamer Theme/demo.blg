@@ -1,3 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: demo.aux
 The style file: plain.bst
 Database file #1: demo_bibliography.bib
+Repeated entry---line 62 of file demo_bibliography.bib
+ : @article{hallo5
+ :                ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Richard A. Durst, Daniel R. Thevenot, Klara Toth, George S. Wilson" for entry hallo5
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Richard A. Durst, Daniel R. Thevenot, Klara Toth, George S. Wilson" for entry hallo5
+while executing---line 1090 of file plain.bst
+(There were 3 error messages)

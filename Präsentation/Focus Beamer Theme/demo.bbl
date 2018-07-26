@@ -1,18 +1,48 @@
 \begin{thebibliography}{1}
 
-\bibitem{knuth74}
-Donald~E. Knuth.
-\newblock Computer programming as an art.
-\newblock {\em Commun. ACM}, pages 667--673, 1974.
+\bibitem{hallo2}
+Jeremy~W. Cannon.
+\newblock Hemorrhagic shock.
+\newblock {\em The New York Journal of Medicine}, pages 403--422, 2018.
 
-\bibitem{knuth92}
-Donald~E. Knuth.
-\newblock Two notes on notation.
-\newblock {\em Amer. Math. Monthly}, 99:403--422, 1992.
+\bibitem{hallo4}
+Joseph~Wang Evgeny~Katz.
+\newblock Digital biosensors with build-in logic for biomedical applications -
+  biosensors based on a biocomputing concept.
+\newblock {\em Anal. Bioanal. Chem.}, pages 1591--1603, 2010.
+
+\bibitem{hallo7}
+KM~Manesh Evgeny~Katz, Joseph~Wang et~al.
+\newblock Enzyme logic gates for the digital analysis of physiological level
+  upon injury.
+\newblock {\em Biosensors and Bioelectronics}, 2009.
+
+\bibitem{hallo1}
+Marie~Pellissier Frederic~Barrière, Dónal~Leech.
+\newblock Powering fuel cells through biocatalysis.
+\newblock {\em Electrochemical Sensors, Biosensors and their Biomedical
+  Applications}, pages 403--422, 2008.
+
+\bibitem{hallo3}
+Evgeny Katz.
+\newblock Enzyme-based logic gates and networks with outout signals analyzed by
+  various methods.
+\newblock {\em ChemPhysChem 16}, pages 1688--1713, 2017.
+
+\bibitem{hallo5}
+Klara Toth George S.~Wilson Richard A.~Durst, Daniel R.~Thevenot.
+\newblock Electrochemical biosensors: recommended definitions and
+  classifications.
+\newblock {\em Biosensors and Bioelectronics}, pages 121--131, 2001.
+
+\bibitem{hallo}
+Wendong~Zhang Shengbo~Sang and Yuan Zhao.
+\newblock State of the art in biosensors.
+\newblock {\em State of the Art in Biosensors}, pages 89--110, 2013.
 
 \bibitem{lamport94}
-Leslie Lamport.
-\newblock {\em LaTeX: A Document Preparation System}.
-\newblock Pearson Education India, 1994.
+Alfred P{\"u}hler~(editors) Uwe~Bornscheuer.
+\newblock {\em R{\"o}mpp-Kompakt-Lexikon Biochemie und Molekularbiologie}.
+\newblock Thieme-Verlag, Stuttgart, 2000.
 
 \end{thebibliography}

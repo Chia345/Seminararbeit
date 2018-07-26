@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  26 JUL 2018 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  26 JUL 2018 20:49
 entering extended mode
 **./demo.tex
 (demo.tex
@@ -843,7 +843,14 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 er.sty") (beamercolorthemefocus.sty) (beamerfontthemefocus.sty)
 (beamerinnerthemefocus.sty) (beamerouterthemefocus.sty
 \footlineheight=\skip57
-)) (demo.aux)
+)) (demo.aux
+
+LaTeX Warning: Label `img:and' multiply defined.
+
+
+LaTeX Warning: Label `img:ph' multiply defined.
+
+)
 \openout1 = `demo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -862,8 +869,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -1095,7 +1101,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
 
 ] (demo.toc
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2.
+(Font)              scaled to size 9.0pt on input line 3.
 )
 [3
 
@@ -1105,65 +1111,113 @@ Overfull \vbox (4.99998pt too high) detected at line 44
 
 [4
 
-] (demo.toc) [5
+] [5
 
-] [6
+]
+Overfull \vbox (4.99998pt too high) detected at line 53
+ []
+
+[6
 
 ] (demo.toc) [7
 
-] [8
+] <pics/biosensor.png, id=92, 765.6103pt x 454.69875pt>
+File: pics/biosensor.png Graphic file (type png)
 
-] (demo.toc) [9
+<use pics/biosensor.png>
+Package pdftex.def Info: pics/biosensor.png used on input line 65.
+(pdftex.def)             Requested size: 252.65218pt x 150.05104pt.
+ [8
+
+ <./pics/biosensor.png (PNG copy)>] (demo.toc)
+[9
 
 ] [10
 
 ]
-Overfull \vbox (4.99998pt too high) detected at line 77
- []
-
-[11
-
-]
-Overfull \vbox (4.99998pt too high) detected at line 78
- []
-
-[12
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 89.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 89.
+(Font)              scaled to size 8.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 89.
+(Font)              scaled to size 10.95pt on input line 94.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 89.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 89.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 89.
- [13
+(Font)              scaled to size 8.0pt on input line 94.
+ <pics/ANDneu.png, id=116, 625.58719pt x 295.1025pt>
+File: pics/ANDneu.png Graphic file (type png)
+
+<use pics/ANDneu.png>
+Package pdftex.def Info: pics/ANDneu.png used on input line 94.
+(pdftex.def)             Requested size: 206.44441pt x 97.38411pt.
+pdfTeX warning (ext4): destination with the same identifier (name{img:and}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94     \end{frame}
+                     [11
+
+ <./pics/ANDneu.png (PNG copy)>] (demo.toc) [12
 
 ]
-Overfull \vbox (4.99998pt too high) detected at line 91
+<pics/network1.png, id=136, 849.1725pt x 262.73157pt>
+File: pics/network1.png Graphic file (type png)
+ <use pics/network1.png>
+Package pdftex.def Info: pics/network1.png used on input line 117.
+(pdftex.def)             Requested size: 254.75371pt x 78.82007pt.
+
+[13
+
+ <./pics/network1.png (PNG copy)>]
+<pics/network2.png, id=143, 767.11594pt x 222.07968pt>
+File: pics/network2.png Graphic file (type png)
+ <use pics/network2.png>
+Package pdftex.def Info: pics/network2.png used on input line 128.
+(pdftex.def)             Requested size: 230.13655pt x 66.6244pt.
+
+<pics/pH.png, id=145, 627.84563pt x 387.69844pt>
+File: pics/pH.png Graphic file (type png)
+ <use pics/pH.png>
+Package pdftex.def Info: pics/pH.png used on input line 128.
+(pdftex.def)             Requested size: 125.5669pt x 77.5383pt.
+ [14
+
+ <./pics/network2.png (PNG copy)> <./pics/pH.png (PNG copy)>]
+File: pics/pH.png Graphic file (type png)
+ <use pics/pH.png>
+Package pdftex.def Info: pics/pH.png used on input line 138.
+(pdftex.def)             Requested size: 232.29924pt x 143.44617pt.
+pdfTeX warning (ext4): destination with the same identifier (name{img:ph}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.138     \end{frame}
+                     
+Overfull \vbox (3.70988pt too high) detected at line 138
  []
 
-[14
+[15
 
-] [15
+]
+Overfull \vbox (4.99998pt too high) detected at line 140
+ []
 
-] [16
+[16
 
-] [17
+]
+Overfull \hbox (12.48354pt too wide) in paragraph at lines 156--156
+ [] 
+ []
 
-] [18
+[17
+
+]
+Overfull \vbox (4.99998pt too high) detected at line 160
+ []
+
+[18
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 141.
+(hyperref)                removing `\translate ' on input line 164.
 
 (demo.bbl
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
@@ -1173,10 +1227,11 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' will be
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/scit' will be
-(Font)              scaled to size 10.0pt on input line 15.
+(Font)              scaled to size 10.0pt on input line 45.
 ) [19
 
  <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/art/beamericonarticle.pdf>] [20
+
 
 ] [21
 
@@ -1190,37 +1245,36 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/scit' will be
 \tf@snm=\write8
 \openout8 = `demo.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: CBCF518BABDDC3D5959C11DEBE0080D8;277.
+(rerunfilecheck)             Checksum: 72842E3A2E908C86B3B9E18F3188A79A;259.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 21669 strings out of 493333
- 424883 string characters out of 3139194
- 478240 words of memory out of 3000000
- 24612 multiletter control sequences out of 15000+200000
- 358064 words of font info for 87 fonts, out of 3000000 for 9000
+ 21606 strings out of 493333
+ 422388 string characters out of 3139194
+ 478489 words of memory out of 3000000
+ 24550 multiletter control sequences out of 15000+200000
+ 324557 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,16n,71p,788b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_765q6w.enc} <C:\Users\M
-aren\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk>{C
-:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_7gpamp.enc} <C:\Users\Maren
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/fira/FiraSans-Italic.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/fira/FiraSans-Regular.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/symbols/msam7.pfb>
-Output written on demo.pdf (21 pages, 333594 bytes).
+ 60i,16n,71p,788b,813s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_765q6w.enc}{C:/Program 
+Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_7gpamp.enc}<C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/fira/FiraSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/fira/FiraSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msam7.pfb>
+Output written on demo.pdf (21 pages, 443019 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
