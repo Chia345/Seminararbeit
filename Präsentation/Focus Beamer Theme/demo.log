@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  26 JUL 2018 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  27 JUL 2018 00:56
 entering extended mode
 **./demo.tex
 (demo.tex
@@ -847,41 +847,38 @@ er.sty") (beamercolorthemefocus.sty) (beamerfontthemefocus.sty)
 
 LaTeX Warning: Label `img:and' multiply defined.
 
-
-LaTeX Warning: Label `img:ph' multiply defined.
-
 )
 \openout1 = `demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Try loading font information for T1+FiraSans-OsF on input l
-ine 20.
+ine 21.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fira\t1firasans-osf.fd"
 File: T1FiraSans-OsF.fd 2018/05/23 (autoinst) Font definitions for T1/FiraSans-
 OsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
+(Font)              scaled to size 10.95pt on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -945,7 +942,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -955,66 +952,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (demo.out) (demo.out)
 \@outlinefile=\write5
 \openout5 = `demo.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 20.
+(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 21.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 20.
+(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 21.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/FiraSans-OsF/m/n on input line 20.
+(Font)                  OT1/cmss/m/n --> T1/FiraSans-OsF/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/FiraSans-OsF/m/n on input line 20.
+(Font)                  OT1/cmss/bx/n --> T1/FiraSans-OsF/m/n on input line 21.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/FiraSans-OsF/m/it on input line 20.
+(Font)                  OT1/cmr/m/it --> T1/FiraSans-OsF/m/it on input line 21.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/FiraSans-OsF/m/it on input line 20
+(Font)                  OT1/cmr/bx/it --> T1/FiraSans-OsF/m/it on input line 21
 .
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 20.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 20.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input l
-ine 20.
+ine 21.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input
- line 20.
+ line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 20.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  T1/FiraSans-OsF/bx/n --> T1/FiraSans-OsF/bx/n on input 
-line 20.
+line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input l
-ine 20.
+ine 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input
- line 20.
+ line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 20.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 21.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
 c-dictionary\translator-basic-dictionary-English.dict"
@@ -1040,63 +1037,63 @@ Dictionary: translator-numbers-dictionary, Language: English
 rem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 20.
+LaTeX Info: Redefining \includegraphics on input line 21.
 \c@mv@tabular=\count171
 \c@mv@boldtabular=\count172
  (demo.nav)
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 20.
+(Font)              scaled to size 6.0pt on input line 21.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 23.
+(Font)              scaled to size 20.74pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 23.
+(Font)              scaled to size 20.74pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 23.
+(Font)              scaled to size 20.74pt on input line 24.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []\T1/FiraSans-OsF/b/sc/20.74 Enzymbasierte dig-i-tale Biosen-
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 23--23
+Underfull \hbox (badness 3428) in paragraph at lines 24--24
 \T1/FiraSans-OsF/b/sc/20.74 soren für medi-zinis-che An-wen-
  []
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 23.
+(Font)              scaled to size 14.4pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 23.
+(Font)              scaled to size 14.4pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 24.
 
-Overfull \vbox (6.35678pt too high) detected at line 23
+Overfull \vbox (6.35678pt too high) detected at line 24
  []
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 23.
+(Font)              scaled to size 4.0pt on input line 24.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+(Font)              scaled to size 10.0pt on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 39.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 37.
+(Font)              scaled to size 6.0pt on input line 39.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 39.
  [2
 
 ] (demo.toc
@@ -1106,7 +1103,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
 [3
 
 ]
-Overfull \vbox (4.99998pt too high) detected at line 44
+Overfull \vbox (4.99998pt too high) detected at line 46
  []
 
 [4
@@ -1114,18 +1111,18 @@ Overfull \vbox (4.99998pt too high) detected at line 44
 ] [5
 
 ]
-Overfull \vbox (4.99998pt too high) detected at line 53
+Overfull \vbox (4.99998pt too high) detected at line 57
  []
 
 [6
 
 ] (demo.toc) [7
 
-] <pics/biosensor.png, id=92, 765.6103pt x 454.69875pt>
+] <pics/biosensor.png, id=99, 765.6103pt x 454.69875pt>
 File: pics/biosensor.png Graphic file (type png)
 
 <use pics/biosensor.png>
-Package pdftex.def Info: pics/biosensor.png used on input line 65.
+Package pdftex.def Info: pics/biosensor.png used on input line 69.
 (pdftex.def)             Requested size: 252.65218pt x 150.05104pt.
  [8
 
@@ -1136,88 +1133,103 @@ Package pdftex.def Info: pics/biosensor.png used on input line 65.
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 94.
+(Font)              scaled to size 8.0pt on input line 98.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 94.
+(Font)              scaled to size 10.95pt on input line 98.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 94.
- <pics/ANDneu.png, id=116, 625.58719pt x 295.1025pt>
+(Font)              scaled to size 8.0pt on input line 98.
+ <pics/ANDneu.png, id=124, 625.58719pt x 295.1025pt>
 File: pics/ANDneu.png Graphic file (type png)
 
 <use pics/ANDneu.png>
-Package pdftex.def Info: pics/ANDneu.png used on input line 94.
+Package pdftex.def Info: pics/ANDneu.png used on input line 98.
 (pdftex.def)             Requested size: 206.44441pt x 97.38411pt.
 pdfTeX warning (ext4): destination with the same identifier (name{img:and}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94     \end{frame}
+l.98     \end{frame}
                      [11
 
  <./pics/ANDneu.png (PNG copy)>] (demo.toc) [12
 
 ]
-<pics/network1.png, id=136, 849.1725pt x 262.73157pt>
+<pics/network1.png, id=145, 849.1725pt x 262.73157pt>
 File: pics/network1.png Graphic file (type png)
  <use pics/network1.png>
-Package pdftex.def Info: pics/network1.png used on input line 117.
+Package pdftex.def Info: pics/network1.png used on input line 121.
 (pdftex.def)             Requested size: 254.75371pt x 78.82007pt.
 
 [13
 
  <./pics/network1.png (PNG copy)>]
-<pics/network2.png, id=143, 767.11594pt x 222.07968pt>
+<pics/network2.png, id=153, 767.11594pt x 222.07968pt>
 File: pics/network2.png Graphic file (type png)
  <use pics/network2.png>
-Package pdftex.def Info: pics/network2.png used on input line 128.
+Package pdftex.def Info: pics/network2.png used on input line 131.
 (pdftex.def)             Requested size: 230.13655pt x 66.6244pt.
 
-<pics/pH.png, id=145, 627.84563pt x 387.69844pt>
+[14
+
+ <./pics/network2.png (PNG copy)>]
+<pics/pH.png, id=160, 627.84563pt x 387.69844pt>
 File: pics/pH.png Graphic file (type png)
  <use pics/pH.png>
-Package pdftex.def Info: pics/pH.png used on input line 128.
-(pdftex.def)             Requested size: 125.5669pt x 77.5383pt.
- [14
+Package pdftex.def Info: pics/pH.png used on input line 142.
+(pdftex.def)             Requested size: 188.35513pt x 116.31042pt.
+ [15
 
- <./pics/network2.png (PNG copy)> <./pics/pH.png (PNG copy)>]
-File: pics/pH.png Graphic file (type png)
- <use pics/pH.png>
-Package pdftex.def Info: pics/pH.png used on input line 138.
-(pdftex.def)             Requested size: 232.29924pt x 143.44617pt.
-pdfTeX warning (ext4): destination with the same identifier (name{img:ph}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.138     \end{frame}
-                     
-Overfull \vbox (3.70988pt too high) detected at line 138
- []
-
-[15
+ <./pics/pH.png (PNG copy)>] (demo.toc) [16
 
 ]
-Overfull \vbox (4.99998pt too high) detected at line 140
- []
-
-[16
-
-]
-Overfull \hbox (12.48354pt too wide) in paragraph at lines 156--156
- [] 
+Overfull \vbox (4.99998pt too high) detected at line 152
  []
 
 [17
 
+] [18
+
 ]
-Overfull \vbox (4.99998pt too high) detected at line 160
+Overfull \hbox (12.48354pt too wide) in paragraph at lines 179--179
+ [] 
  []
 
-[18
+[19
+
+] (demo.toc) [20
+
+]
+Overfull \vbox (4.99998pt too high) detected at line 191
+ []
+
+[21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] (demo.toc) [28
+
+]
+Overfull \vbox (4.99998pt too high) detected at line 248
+ []
+
+[29
+
+] [30
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 164.
+(hyperref)                removing `\translate ' on input line 262.
 
 (demo.bbl
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
@@ -1228,12 +1240,12 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/scit' will be
 (Font)              scaled to size 10.0pt on input line 45.
-) [19
+) [31
 
- <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/art/beamericonarticle.pdf>] [20
+ <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/art/beamericonarticle.pdf>] [32
 
 
-] [21
+] [33
 
 ]
 \tf@nav=\write6
@@ -1245,23 +1257,23 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/scit' will be
 \tf@snm=\write8
 \openout8 = `demo.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: 72842E3A2E908C86B3B9E18F3188A79A;259.
+(rerunfilecheck)             Checksum: 3BD09DC7F9A33FBD7108D9F0330C8CB8;293.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21606 strings out of 493333
- 422388 string characters out of 3139194
- 478489 words of memory out of 3000000
- 24550 multiletter control sequences out of 15000+200000
+ 21724 strings out of 493333
+ 424096 string characters out of 3139194
+ 479283 words of memory out of 3000000
+ 24637 multiletter control sequences out of 15000+200000
  324557 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,71p,788b,813s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1272,9 +1284,9 @@ Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_7gpamp.enc}<C:/Program Files/MiKTeX 2
 ype1/public/fira/FiraSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/fira/FiraSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/symbols/msam7.pfb>
-Output written on demo.pdf (21 pages, 443019 bytes).
+Output written on demo.pdf (33 pages, 468068 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

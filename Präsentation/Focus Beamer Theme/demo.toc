@@ -2,6 +2,7 @@
 \beamer@sectionintoc {2}{Konzept}{6}{0}{2}
 \beamer@subsubsectionintoc {2}{0}{1}{Biosensoren}{7}{0}{2}
 \beamer@subsubsectionintoc {2}{0}{2}{Enzymbasierte Logikgatter}{9}{0}{2}
-\beamer@subsubsectionintoc {2}{0}{3}{enzymbasierte Biosensoren}{12}{0}{2}
-\beamer@sectionintoc {3}{F{\"u}r medizinische Anwendungen}{16}{0}{3}
-\beamer@sectionintoc {4}{{\"U}berlegungen}{18}{0}{4}
+\beamer@subsubsectionintoc {2}{0}{3}{Enzymbasierte Biosensoren}{12}{0}{2}
+\beamer@sectionintoc {3}{Medizinische Anwendungen}{17}{0}{3}
+\beamer@sectionintoc {4}{{\"U}berlegungen}{21}{0}{4}
+\beamer@sectionintoc {5}{Fazit}{29}{0}{5}
