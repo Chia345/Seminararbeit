@@ -4,51 +4,79 @@
 \documentclass{beamer}
 \usetheme{focus}
 
-\title{Multisignal Biosensoren}
-\subtitle{Biosensoren in Kombination mit Biocomputing}
+\title{Enzymbasierte digitale Biosensoren f{\"u}r medizinische Anwendungen}
+%\subtitle{Biosensoren in Kombination mit Biocomputing}
 \author{Maren Krafft}
 %\titlegraphic{\includegraphics[scale=1.25]{focuslogo.pdf}}
 \institute{Universit{\"A}t Passau \\ Lehrstuhl f{\"u}r technische Informatik}
 \date{02 08 2018}
 
-\AtBeginSection[]
+\AtBeginSubsection[]
 {
 	\begin{frame}<beamer>{Gliederung}
 	\tableofcontents[currentsection,currentsubsection]
-	\end{frame}
+\end{frame}
 }
-	\begin{document}
-    	\begin{frame}
-        	\maketitle
-    	\end{frame}
+\begin{document}
+    \begin{frame}
+        \maketitle
+    \end{frame}
+
+	\begin{frame}{Motivation}
+		\begin{itemize}
+			\item Mehrere Inputs k{\"o}nnen direkt verarbeitet werden
+			\item Bietet neue Möglichkeiten im medizinischen Bereich
+			\item Beispiele: 
+			\begin{itemize}
+				\item nicht nur einzelne Substanzen analysieren, sondern krankheitsabhängige Kombinationen von chemischen Substanzen
+				\item feedback loops
+				\item personalisierte Medikation
+				\item zeitnahe Reaktion
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
    
     \begin{frame}{Outline}
     \tableofcontents
     % You might wish to add the option [pausesections]
 	\end{frame}
-
- 	\section{Motivation}
- 	\begin{frame}{Bla}
- 	This is a simple frame.
- 	\end{frame}
  
- 	\section{Logik}
-    \begin{frame}{Simple frame}
+ 	\section{Konzept}
+ 	\subsubsection{Biosensoren}
+ 	
+ 	\begin{frame}<beamer>{Gliederung}
+ 	\tableofcontents[currentsection,currentsubsection]
+ 	\end{frame}
+ 	
+    \begin{frame}{Biosensoren}
         This is a simple frame.
     \end{frame}
 
-    \begin{frame}{Plain frame}
+
+
+	\subsubsection{Enzymbasierte Logikgatter}
+	
+	\begin{frame}<beamer>{Gliederung}
+	\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+
+    \begin{frame}{Enzymbasierte Logikgatter}
         This is a frame with plain style and it is numbered.
     \end{frame}
+
+
+    \subsubsection{Netzwerke aus enzymbasierten Logikgattern}
+    \begin{frame}<beamer>{Gliederung}
+    \tableofcontents[currentsection,currentsubsection]
+	\end{frame}
     
-    \begin{frame}[t]
+    \begin{frame}{Netzwerke aus enzymbasierten Logikgattern]}
         This frame has an empty title and is aligned to top.
     \end{frame}
     
-    \begin{frame}[noframenumbering]{No frame numbering}
-        This frame is not numbered and is citing reference \cite{knuth74}.
-    \end{frame}
-    
+   \section{Beispieldesign für ein medizinsche Anwendung basierend auf }
+   \section{{\"U}berlegungen}
+   
     \begin{frame}{Typesetting and Math}
         The packages \texttt{inputenc} and \texttt{FiraSans}\footnote{\url{https://fonts.google.com/specimen/Fira+Sans}}\textsuperscript{,}\footnote{\url{http://mozilla.github.io/Fira/}} are used to properly set the main fonts.
         \vfill
@@ -110,16 +138,17 @@
         \end{columns}
     \end{frame}
 
+	 \appendix
+	\begin{frame}{Quellen}
+	\nocite{*}
+	\bibliography{demo_bibliography}
+	\bibliographystyle{plain}
+	\end{frame}
     \begin{frame}[focus]
-        Thanks for using \textbf{Focus}!
+        Vielen Dank für Ihre Aufmerksamkeit
     \end{frame}
     
-    \appendix
-    \begin{frame}{References}
-        \nocite{*}
-        \bibliography{demo_bibliography}
-        \bibliographystyle{plain}
-    \end{frame}
+   
     
     \begin{frame}{Backup frame}
         \usebeamercolor[fg]{normal text}
