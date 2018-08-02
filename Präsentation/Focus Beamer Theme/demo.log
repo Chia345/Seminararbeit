@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  27 JUL 2018 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.25)  2 AUG 2018 00:38
 entering extended mode
 **./demo.tex
 (demo.tex
@@ -1054,11 +1054,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []\T1/FiraSans-OsF/b/sc/20.74 Enzymbasierte dig-i-tale Biosen-
  []
 
-
-Underfull \hbox (badness 3428) in paragraph at lines 24--24
-\T1/FiraSans-OsF/b/sc/20.74 soren für medi-zinis-che An-wen-
- []
-
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 24.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' will be
@@ -1272,7 +1267,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21724 strings out of 493333
  424096 string characters out of 3139194
- 479283 words of memory out of 3000000
+ 479351 words of memory out of 3000000
  24637 multiletter control sequences out of 15000+200000
  324557 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1284,7 +1279,7 @@ Files/MiKTeX 2.9/fonts/enc/dvips/fira/fir_7gpamp.enc}<C:/Program Files/MiKTeX 2
 ype1/public/fira/FiraSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/fira/FiraSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/symbols/msam7.pfb>
-Output written on demo.pdf (33 pages, 468068 bytes).
+Output written on demo.pdf (33 pages, 468200 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  86 named destinations out of 1000 (max. 500000)
